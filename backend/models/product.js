@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const productSchema = new mongoose.Schema({
     labName: { type: String, required: true },
     productName: { type: String, required: true },
-    shortDesc: { type: String, required: true },
+    shortDesc: { type: String, },
     desc: { type: String, required: true },
     images: [{
         url: String,

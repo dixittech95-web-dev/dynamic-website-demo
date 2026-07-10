@@ -2694,6 +2694,1256 @@ async function seedDB() {
                 ],
                 "featured": "false"
             },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Corrosion Evaluation & Service Life - GalvaPulse - Corrosion Analyser",
+                "desc": "The GalvaPulse is used to measure the corrosion rate of reinforcement by measuring polarization resistance using the galvanostatic pulse technique, for monitoring corrosion activity in reinforced concrete structures. The GalvaPulse is a easy to operate, lightweight, handheld equipment. It's a portable system including calibration unit and a check block with embedded stainless steel and corroding black steel bars. The test results are in 2D or 3D color graphics with windows based software. It can be used on rough or curved surfaces for testing. Storage capacity of up to 20,000 records in the handheld computer, so its reliable evaluation of reinforcement corrosion in anaerobic concrete environment.",
+                "shortDesc": "The GalvaPulse is used to measure the corrosion rate of reinforcement by measuring polarization resistance using the galvanostatic pulse technique, for monitoring corrosion activity in reinforced concrete structures.",
+                "images": [
+                    {"url": "public/image/Cpp043.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "CANIN + Half Cell",
+                "desc": "The Canin+ is the fastest instrument for corrosion analysis, offering a practical, cost-effective approach to the investigation of reinforced concrete. Corrosion analysis with the Canin+ allows a rapid, comprehensive test of the site and provides a fast assessment of locations where corrosion is likely to take place. Unit includes: Canin+ indicating device , adjustable, padded carrying strap, protection sleeve for display instrument, transfer cable, USB-serial adapter, operating instructions, carrying case, Canin+ rod electrode with spare parts, electrode cable, bottle with copper sulphate (CuSO4) 250g, Canin ProVista PC software on memory stick.",
+                "shortDesc": "The Canin+ is the fastest instrument for corrosion analysis, offering a practical, cost-effective approach to the investigation of reinforced concrete.",
+                "images": [
+                    {"url": "public/image/Cpp044.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Resipod Resistivity Meter",
+                "desc": "Resipod is a fully integrated 4-point Wenner probe, designed to measure the electrical resistivity of concrete in a completely non-destructive test. Operating on the principle of the Wenner probe, the Resipod is designed to measure the electrical resistivity of concrete or rock. The calculated resistivity depends on the spacing of the probes. It is extremely fast and stable and packaged in a robust, waterproof housing designed to operate in a demanding ",
+                "shortDesc": "Resipod is a fully integrated 4-point Wenner probe, designed to measure the electrical resistivity of concrete in a completely non-destructive test.",
+                "images": [
+                    {"url": "public/image/Cpp045.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Giatec Xcell™",
+                "desc": "Giatec XCell™ is a novel tablet/smartphone-based NDT probe for fast, accurate and efficient detection of in-situ analysis of corrosion in reinforced concrete structures. It benefits from an advanced Bluetooth-enabled, maintenance-free sensor that measures the corrosion potential and sends it wirelessly to a tablet for generating half-cell contour plots in real-time. The results are analyzed using the Android-based application on site for the identification of locations with high probability of corrosion. The measured potential values are indicative of corrosion probability. Three models of the Giatec XCell™ are available.",
+                "shortDesc": "Giatec XCell™ is a novel tablet/smartphone-based NDT probe for fast, accurate and efficient detection of in-situ analysis of corrosion in reinforced concrete structures.",
+                "images": [
+                    {"url": "public/image/Cpp046.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Giatec Surf™ Surface Resistivity",
+                "desc": "It is a laboratory non-destructive test device for rapid, easy and accurate measurement of the surface electrical resistivity of concrete based on the four-probe (Wenner-Array) technique. Surf™ has a unique and customized setup, which enables the measurement of electrical resistivity with high accuracy by reducing the duration of the test and minimizing ambient effects. Surf™'s patented technology automatically takes measurements at each of the sensor points around the cylinder and then repeats the process for all 8 measurements in less than 15 seconds.",
+                "shortDesc": "It is a laboratory non-destructive test device for rapid, easy and accurate measurement of the surface electrical resistivity of concrete based on the four-probe (Wenner-Array) technique.",
+                "images": [
+                    {"url": "public/image/Cpp047.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "CorroWatch",
+                "desc": "CorroWatchis a monitoring system for early warning of the onset reinforcement corrosion. It can also be used to estimate the time before corrosion of reinforcement begins so that corrective measures may be taken early enough to minimize repair costs. The CorroWatch is a multi-probe device consisting of four black steel bars acting as anodes and a noble metal as the cathode. The bars are positioned at different elevations and when cast into concrete, CorroWatch allows determination of corrosion activity as a function of cover distance.",
+                "shortDesc": "CorroWatchis a monitoring system for early warning of the onset reinforcement corrosion. It can also be used to estimate the time before corrosion of reinforcement begins so that corrective measures may be taken early enough to minimize repair costs.",
+                "images": [
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "ERE-Probe (Embeddable Reference Electrode)",
+                "desc": "The ERE-Probe (Embeddable Reference Electrode) is a stable, long life reference electrode for monitoring the half-cell potential of reinforcement. It is based on a manganese dioxide electrode in a steel housing with a chloride-free, alkaline gel and having a porous cement plug at one end. The ERE-Probe is a reference half-cell that is embedded in concrete and can be used to monitor the reinforcement potentials in critical areas for corrosion such as construction joints, splash zones in marine structures, bridge decks, and bottoms of bridge columns exposed to ingress of chlorides.",
+                "shortDesc": "The ERE-Probe (Embeddable Reference Electrode) is a stable, long life reference electrode for monitoring the half-cell potential of reinforcement.",
+                "images": [
+                    {"url": "public/image/Cpp048.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Deep Purple and Rainbow Indicator",
+                "desc": "Deep Purple and Rainbow Indicator are used to determine the depth of carbonation in samples of field concrete. Carbonation depth can be used to evaluate the cause of corrosion when conducting corrosion survey, to estimate service life where penetration of the carbonation front is critical and to make a rough estimate of concrete strength from the age of concrete and the relative humidity. The natural alkalinity of cement paste in concrete results in a protective oxide coating on steel reinforcement that prevents the steel from rusting.",
+                "shortDesc": "Deep Purple and Rainbow Indicator are used to determine the depth of carbonation in samples of field concrete.",
+                "images": [
+                    {"url": "public/image/Cpp049.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Chloride and Alkali Content - RCT and RCTW",
+                "desc": "The RCT and RCTW systems are used to accurately and quickly determine the chloride ion content from powder samples of concrete obtained on-site or in the laboratory using the Profile Grinder or other means. The test results can be used for: Establishing the chloride ion profile for service life estimation & Diagnosing a structure for corrosion activity, in combination with other test systems such the Mini Great Dane, the GalvaPulse, and the Rainbow Indicator. The RCT (Rapid Chloride Test) is used to determine the amount of acid-soluble chlorides & The RCTW (Rapid Chloride Test Water) is used to determine the amount of water-soluble chlorides.",
+                "shortDesc": "The RCT and RCTW systems are used to accurately and quickly determine the chloride ion content from powder samples of concrete obtained on-site or in the laboratory using the Profile Grinder or other means.",
+                "images": [
+                    {"url": "public/image/Cpp050.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "RAT (Rapi  Alkali Test) ",
+                "desc": "The RAT (Rapid Alkali Test) measures the amounts of sodium and potassium ions that may contribute to alkali-silica reaction (ASR) if reactive aggregates are present. ASR leads to expansive products that can cause extensive cracking in concrete structures. The RAT measures the amount of sodium and potassium ions in the fresh concrete or in its constituents. The test may also be used for testing powder samples of hardened concrete.",
+                "shortDesc": "The RAT (Rapid Alkali Test) measures the amounts of sodium and potassium ions that may contribute to alkali-silica reaction (ASR) if reactive aggregates are present.",
+                "images": [
+                    {"url": "public/image/Cpp051.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Durability Assessment",
+                "desc": "The PROOVE'it system is used to evaluate the resistance of concrete to the ingress of chloride ions in three ways: By determining the total electrical charge that passes through a saturated concrete specimen by applying an electrical potential across the specimen in accordance with AASHTO T 277 or ASTM C1202. This is known as the “Coulomb Test” or the “Rapid Chloride Permeability Test (RCPT).” By measuring the penetration depth of chloride ions, after an electric potential has been applied to the specimen in accordance with Nordtest Build 492 to determine the “Chloride Migration Coefficient,” which can be used to estimate the chloride diffusion coefficient for service life calculations. By measuring the current passing through a saturated concrete specimen and determining the bulk conductivity in accordance with ASTM C1760. PROOVE'it  is  the  computer-controlled  microprocessor  power  supply  and  the  Windows based software for testing and report preparation offers the testing up to 8 cells simultaneously & Cyclic testing option for effect of curing duration.",
+                "shortDesc": "The PROOVE'it system is used to evaluate the resistance of concrete to the ingress of chloride ions in three ways: By determining the total electrical charge ",
+                "images": [
+                    {"url": "public/image/Cpp052.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Profile Grinder ",
+                "desc": "The Profile Grinder is used to obtain concrete powder samples by precision grinding at small depth increments for accurate determination of the chloride ion profile for the following immersion of specimens in a chloride solution in the laboratory, e.g., according to NT Build 443 “Concrete, Hardened: Accelerated Chloride Penetration” or ASTM C1556  Test Method for Determining the Apparent Chloride Diffusion Coefficient of Cementitious Mixtures by Bulk Diffusion,or On-site on structures that have been subjected to chloride ion ingress. A grinding bit, 18 mm in diameter, grinds the concrete to a fine powder at exact depth increments, which can be selected between 0.5 mm to 2.0 mm. The bit is attached to a grinding machine that is held against the surface by a grinding plate. Grinding is accomplished by rotating the grinder within the grinding plate so that the bit removes a circular portion of the surface.",
+                "shortDesc": "The Profile Grinder is used to obtain concrete powder samples by precision grinding at small depth increments for accurate determination of the chloride ion profile for the following immersion of specimens in a chloride solution in the laboratory,",
+                "images": [
+                    {"url": "public/image/Cpp053.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Merlin Bulk Conductivity",
+                "desc": "Merlin is used to measure the bulk electrical conductivity, or its inverse, the bulk electrical resistivity, of saturated 100 mm diameter concrete cylinders or cores with lengths up to 200 mm. The test is simple to perform and a measurement is obtained within two seconds. The conductivity of a saturated concrete specimen provides information on the resistance of the concrete to penetration of ionic species by diffusion. Merlin can be used for the research and development to characterize the influence of new materials on the electrical conductivity of concrete. Optimizing mixture proportions and blends of supplementary cementitious materials to increase concrete service life. Evaluation of in-place concrete (using cores).",
+                "shortDesc": "Merlin is used to measure the bulk electrical conductivity, or its inverse, the bulk electrical resistivity, of saturated 100 mm diameter concrete cylinders or cores with lengths up to 200 mm. ",
+                "images": [
+                    {"url": "public/image/Cpp054.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "GWT (Germann Water permeation Test)",
+                "desc": "The GWT (Germann Water permeation Test) is used for on-site evaluation of the water permeation of the skin-concrete in finished structure and masonry panels. The GWT measures the permeation of water into the test surface under an applied pressure. With the use of the optional laboratory kit, the GWT can be used to determine the water penetration characteristics of alternative concrete mixtures or surface sealers. GWT can be used for in-place testing to demonstrate that the concrete in the structure conforms to the water penetration requirements.re located at the front of the apparatus while the three graduated burettes for measuring water volume are mounted on the upper panel",
+                "shortDesc": "The GWT (Germann Water permeation Test) is used for on-site evaluation of the water permeation of the skin-concrete in finished structure and masonry panels.",
+                "images": [
+                    {"url": "public/image/Cpp055.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Field Water Impermeability Apparatu",
+                "desc": "Used to determine the impermeability of concrete to water. The test is performed by placing the sample in the special chamber (measuring 250 x 250 x 220 (h) mm, height being adjustable) and securing it between the upper flange and the lower gasket delimiting the test surface. Water under pressure is then applied to the surface (dia. 100mm) for the duration prescribed by the Standard. A precision valve controls water pressure shown by the dial gauge, pressure being supplied by an air compressor (10 bar). The apparatus can be used for testing three samples at a time. All parts coming into contact with water are in stainless steel. Inlet-outlet taps are located at the front of the apparatus while the three graduated burettes for measuring water volume are mounted on the upper panel",
+                "shortDesc": "Used to determine the impermeability of concrete to water. The test is performed by placing the sample in the special chamber (measuring 250 x 250 x 220 (h) mm, height being adjustable) and securing it between the upper flange and the lower gasket delimiting the test surface. ",
+                "images": [
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Rapid, Freeze-Thaw Cabinet",
+                "desc": "The Rapid Freeze-Thaw Cabinet is used to measure the resistance of concrete to deterioration caused by repeated cycles of freezing and thawing in water. The system is designed to test up to eighteen(3in x 4in x 16in) (76 x 102 x 406cm) concrete specimens simultaneously, with one being a control. It allows users to establish field control using correlations between concrete strength and durability. It is useful in the evaluation of the durability of aggregates, as well as the properties of admixtures.",
+                "shortDesc": "The Rapid Freeze-Thaw Cabinet is used to measure the resistance of concrete to deterioration caused by repeated cycles of freezing and thawing in water.",
+                "images": [
+                    {"url": "public/image/Cpp056.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+             {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Sonometer",
+                "desc": "The Sonometer determines changes in resonant frequency of concrete specimens subjected to alternate cycles of freezing and thawing with the Humboldt Freeze-Thaw Cabinet. This apparatus closely follows design parameters set up over 40 years ago by the Portland Cement Association research laboratories. The original PCA design has been modified by changing to solid state circuitry and addition of a built-in cathode ray oscilloscope. The oscilloscope confirms that peak reading on meter is actual resonance and not a harmonic.",
+                "shortDesc": "The Sonometer determines changes in resonant frequency of concrete specimens subjected to alternate cycles of freezing and thawing with the Humboldt Freeze-Thaw Cabinet.",
+                "images": [
+                    {"url": "public/image/Cpp057.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "E-Meter for Flexural Resonance of Concrete",
+                "desc": "The E-Meter can determine flexural resonance of concrete under accelerated freezing and thawing cycles and aggressive environments. It determines the resonant frequencies of the three modes of vibration and is the only method of calculating the following material parameters non destructively: such as Youngs Modulus of Elasticity, Modulus of Rigidity, Poissons Ratio and Damping Constant. Frequencies are automatically scanned in one of four ranges. A semi-automatic feature facilitates the fast identification of resonance.",
+                "shortDesc": "The E-Meter can determine flexural resonance of concrete under accelerated freezing and thawing cycles and aggressive environments.",
+                "images": [
+                    {"url": "public/image/Cpp058.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Repair Quality - Bond Test",
+                "desc": "The BOND-TEST is used to conduct a pull-off test in accordance with ASTM C1583, Test Method for Tensile Strength of Concrete Surfaces and the Bond Strength or Tensile Strength of Concrete Repair and Overlay Materials by Direct Tension (Pull-off Method). The obtained pull-off strength can be used to evaluate the in-place bond strength between a repair overlay and the substrate. It is useful to evaluate the in-place tensile strength of concrete or other materials. As well as to evaluate the effect of surface preparation procedures on the tensile strength of the substrate before applying a repair material or overlay.",
+                "shortDesc": "The BOND-TEST is used to conduct a pull-off test in accordance with ASTM C1583, Test Method for Tensile Strength of Concrete Surfaces and the Bond Strength or Tensile Strength of Concrete Repair and Overlay Materials by Direct Tension (Pull-off Method).",
+                "images": [
+                    {"url": "public/image/Cpp059.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Torq Test",
+                "desc": "he TORQ-TEST is used to evaluate the shear strength of Surface concrete, the bond between carbon fiber reinforced polymer (CFRP) sheets or strips and concrete, the bond between an overlay and concrete. A disc with an integral ring, 55-mm inner diameter and 75-mm outer diameter, is bonded to the surface using a rapid curing adhesive (GRA) and is used to impart shearing stress to the test surface.",
+                "shortDesc": "he TORQ-TEST is used to evaluate the shear strength of Surface concrete, the bond between carbon fiber reinforced polymer (CFRP) sheets or strips and concrete, the bond between an overlay and concrete.",
+                "images": [
+                    {"url": "public/image/Cpp060.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "DSS Test",
+                "desc": "The DSS-TEST is used to measure the direct shear bond strength of a carbon fiber reinforced polymer (CFRP) laminate bonded to concrete. The effectiveness of the CFRP laminates to act as external reinforcement relies on adequate shear bond strength with the concrete. CFRP laminates are used as external reinforcement to strengthen existing concrete structural elements. The laminates are bonded to the concrete with epoxy adhesives. The strip is bonded perpendicular to the edge of the concrete so that it extends 200 mm beyond the edge",
+                "shortDesc": "The DSS-TEST is used to measure the direct shear bond strength of a carbon fiber reinforced polymer (CFRP) laminate bonded to concrete.",
+                "images": [
+                    {"url": "public/image/Cpp061.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Power Test",
+                "desc": "The POWER test system is used for proof-load testing of anchors in concrete. An adaptor of the appropriate size is threaded to the anchor bolt. A counter pressure assembly is placed on the concrete so that it is centered with the anchor bolt. A pull bolt with coupler is threaded into the adaptor and attached to a hydraulic pull machine, which is the same as used for pull-out testing. The load is increased to the required proof load and held for at least 10 seconds. If the load is maintained during the hold period, the anchor passes the proof load test.",
+                "shortDesc": "The POWER test system is used for proof-load testing of anchors in concrete. An adaptor of the appropriate size is threaded to the anchor bolt.",
+                "images": [
+                    {"url": "public/image/Cpp062.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+             {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Cement - ASTM-Compliant Mixer",
+                "desc": "ASTM-compliant mixer for mixing hydraulic cement pastes and mortars of plastic consistency. Mixer includes H-3844 Bowl Positioning Adapter, a 5-qt. (4.73L) stainless steel bowl and 1 flat, stainless steel beater for mixing heavy materials. Hobart Model No. N-50 operates on principle of planetary action—beater reaches every part of the batch, rotating on its axis in opposite directions as it moves around the bowl. Thoroughly blends, mixes and aerates all ingredients for consistent, predictable finished batches.",
+                "shortDesc": "ASTM-compliant mixer for mixing hydraulic cement pastes and mortars of plastic consistency.",
+                "images": [
+                    {"url": "public/image/Cpp063.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Mortar Mixer w/ Program Control and Sand Feed",
+                "desc": "Mixer with 5L (5.3qt) capacity provides automatic program control and sand feed with manually-controlled cement and water supply. Two-speed mixer designed to mix cement mortars and pastes. Mixer features a 5 Liter (5.28qt) stainless steel bowl and ASTM stirrer, and a two speed motor, which runs at either 140 ±5 rpm or 285 ±10rpm.Heavy-duty constructions of aluminium and cast iron provides durability and a long service life. The Mixer design conforms to CE standards, featuring a mixing bowl cover, electronic position monitoring of the mixing bowl, emergency stop switch and restart protection.",
+                "shortDesc": "Mixer with 5L (5.3qt) capacity provides automatic program control and sand feed with manually-controlled cement and water supply.",
+                "images": [
+                    {"url": "public/image/Cpp064.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Length Comparators",
+                "desc": "Length comparators measure length changes of hardened cement paste, mortar and concrete prismatic specimens. Indicators are mounted on a sturdy upright support attached to a solid triangular base. All units Include stationary and movable anvils designed to fit H-3260 gauge studs, which are cast into test specimens and an invar reference bar.",
+                "shortDesc": "Length comparators measure length changes of hardened cement paste, mortar and concrete prismatic specimens.",
+                "images": [
+                    {"url": "public/image/Cpp065.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Cement Autoclave",
+                "desc": "Uses accelerated means of estimating delayed expansion of Portland cement caused by hydration of CaO and MgO. Test bars are exposed to controlled steam pressure and corresponding constant temperature. Unit produces 60-350 psi (0.4-2.4MPa) range of pressures and consists of steam vessel, pressure regulator, pressure gauge, air vent valve, power switches and safety pop valve set at 350psi. Includes thermometer, wrench and 5 gaskets. Additional gaskets, heating units and safety pop valves are available as replacement parts.",
+                "shortDesc": "Uses accelerated means of estimating delayed expansion of Portland cement caused by hydration of CaO and MgO.",
+                "images": [
+                    {"url": "public/image/Cpp066.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Vicat Apparatus, Computer Controlled",
+                "desc": "The Computer-controlled, Vicat Apparatus can be used to determine the initial and final setting time of cement, mortar pastes and gypsum. This six-station apparatus automatically monitors the setting process and provides output curves of the process. The test sequence is programmable and tests can be performed in air or in the supplied, temperature-controlled water bath. The computer-controlled vicat apparatus includes: Base unit as a table model apparatus with a control unit and standard software for performing programmable test sequences and for data recording.",
+                "shortDesc": "The Computer-controlled, Vicat Apparatus can be used to determine the initial and final setting time of cement, mortar pastes and gypsum.",
+                "images": [
+                    {"url": "public/image/Cpp067.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+             {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Gillmore Apparatus",
+                "desc": "Used to determine initial and final set times of Portland cement, masonry cement, hydraulic hydrated lime and certain mortars. Comprised of two stainless steel needles with 4.8mm cylindrical flat-end needles. One is 2.12mm dia. 1/4lb. (113.4g) weight for initial set. The second is 1/24 (1.06mm) dia., 1lb (453.6g) weight for final set.",
+                "shortDesc": "Used to determine initial and final set times of Portland cement, masonry cement, hydraulic hydrated lime and certain mortars. Comprised of two stainless steel needles with 4.8mm cylindrical flat-end needles.",
+                "images": [
+                    {"url": "public/image/Cpp068.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Cement Bleeding Apparatus",
+                "desc": "Used to determine bleeding rate and bleeding capacity of cement paste and mortar by direct and continuous procedure. Includes noncorrosive metal container for paste or mortar, collecting ring, support stand and necessary glassware. Rubber-covered double V-jaw burette clamp holds stopcock in position; single rubber-covered jaw clamp supports the burette and funnel assembly.",
+                "shortDesc": "Used to determine bleeding rate and bleeding capacity of cement paste and mortar by direct and continuous procedure.",
+                "images": [
+                    {"url": "public/image/Cpp069.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Water Retention Apparatus",
+                "desc": "The apparatus is used in specification tests of masonry cement and physical testing of quicklime and hydrated lime. Unlike older models, the newly designed unit incorporates a vacuum regulator and gauge system in place of the old mercury manometer and relief column. The complete unit consists of an aspirator pump, vacuum regulator, vacuum gauge, three-way stopcock, flask, rubber gasket, brass funnel, perforated brass dish, filter paper and hardwood stand.",
+                "shortDesc": "The apparatus is used in specification tests of masonry cement and physical testing of quicklime and hydrated lime.",
+                "images": [
+                    {"url": "public/image/Cpp070.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Blaine Air Permeability Apparatus",
+                "desc": "Determines fineness of Portland cement in terms of specific surface expressed as total surface area in square centimeters per gram of cement. Consists of: calibrated U-tube manometer, ground glass joint, stainless steel test cell and plunger, rubber aspirator bulb and perforated disc. Includes 8 oz (226.8g) bottle of red manometer fluid, filter paper, wood block for holding test cell during filling and funnel. Mounted on finished wood panel with rubber-footed base. Electronic and computer controlled Blaine Air permeability (Dyckerhoff) apparatus are also available.",
+                "shortDesc": "Determines fineness of Portland cement in terms of specific surface expressed as total surface area in square centimeters per gram of cement.",
+                "images": [
+                    {"url": "public/image/Cpp071.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Organic Impurities Test Set",
+                "desc": "Determines presence of injurious organic compounds in sands used in cement mortar or concrete. Test serves as warning that further tests of sands are necessary before they can be approved for use. Air shipments must meet Dangerous Goods requirements because of Sodium Hydroxide Beads. Order H-3493X without Sodium Hydroxide Beads to avoid Dangerous Goods requirements.",
+                "shortDesc": "Determines presence of injurious organic compounds in sands used in cement mortar or concrete.",
+                "images": [
+                    {"url": "public/image/Cpp072.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Wagner Turbidimeter",
+                "desc": "Determines fineness of Portland cement, using photoelectric cell to measure light passing through suspended pulverized material. Microamp meter measures current generated in the cell; indicated reading is measure of turbidity of the suspension. Includes photoelectric cell {and light source in metal cabinet, timing burette and stand, wet sieving assembly including gauge and spray nozzle, microamp meter, 3 flasks, 4 test tubes, stirring apparatus and instruction book.",
+                "shortDesc": "Determines fineness of Portland cement, using photoelectric cell to measure light passing through suspended pulverized material. ",
+                "images": [
+                    {"url": "public/image/Cpp073.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Digital Cement Calorimeter ",
+                "desc": "For determining heat of hydration of cements by measuring difference between heat of solution of dry cement and heat of solution of a separate sample partially hydrated for 7 to 28 days. Constant-speed stirrer maintains uniform temperature throughout liquid and supplies sufficient agitation to keep solid reactant suspended in the acid mixture. Includes insulated wood case, insulated 1G (3.8L) can; 1 pt. (0.47L) vacuum jar with stopper; 2-channel, Precision Digital Thermometer; plastic funnel; stirring paddle and chuck; geared synchronous motor.",
+                "shortDesc": "For determining heat of hydration of cements by measuring difference between heat of solution of dry cement and heat of solution of a separate sample partially hydrated for 7 to 28 days.",
+                "images": [
+                    {"url": "public/image/Cpp074.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Marsh Funnel Viscometer",
+                "desc": "The Marsh Funnel Viscometer is a rugged, easy to operate instrument that is used for making rapid, on the spot measurements of drilling mud viscosity. Marsh Funnel readings are only general measurements, but the frequent reporting of the Marsh Funnel Viscosity will alert the mud engineer to sudden changes in the mud viscosity that could require corrective action. The Marsh Funnel Viscosity is the ratio of the speed of the mud as it passes through the outlet tube (the Shear Rate) to the amount of force— the weight of the mud itself, which is causing the mud to flow (the Shear Stress).",
+                "shortDesc": "The Marsh Funnel Viscometer is a rugged, easy to operate instrument that is used for making rapid, on the spot measurements of drilling mud viscosity.",
+                "images": [
+                    {"url": "public/image/Cpp075.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Concrete & Cement",
+                "category": "civil engineering",
+                "productName": "Mud Balance",
+                "desc": "The Mud Balance provides a simple, practical method for the accurate determination of fluid density. The item's durable construction makes it ideal for field use. It's high-impact plastic case protects the balance during transport while providing a secure base for the balance during use. The H-4790 Mud Balance meets all the requirements of the API standard procedures for testing water base drilling fluids, oil base drilling fluids and oil well cements.",
+                "shortDesc": "The Mud Balance provides a simple, practical method for the accurate determination of fluid density.",
+                "images": [
+                    {"url": "public/image/Cpp076.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Geotechnical Modeling Software",
+                "category": "civil engineering",
+                "productName": "Slope Stability : SLOPE/W",
+                "desc": "SLOPE/W is the leading slope stability CAD software product for computing the factor of safety of earth and rock slopes.\nSeepage Analysis: SEEP/W \n SEEP/W is a finite element CAD software product for analyzing groundwater seepage and excess pore-water pressure dissipation problems within porous materials such as soil and rock.\nStress and Strain Analysis : SIGMA/W\nSIGMA/W is a finite element CAD software product that can be used to perform stress and deformation analyses of earth structures. Its comprehensive formulation makes it possible to analyze both simple and highly complex problems.\nDynamic Analysis : QUAKE/W\nQUAKE/W is a geotechnical finite element CAD software product for the dynamic analysis of earth structures subjected to earthquake shaking, or point dynamic forces from a blast or a sudden impact load.",
+                "shortDesc": "SLOPE/W is the leading slope stability CAD software product for computing the factor of safety of earth and rock slopes.",
+                "images": [
+                    {"url": "public/image/Gsmp01.png", "caption": "SLOPE/W"},
+                    {"url": "public/image/Gsmp02.png", "caption": "SEEP/W"},
+                    {"url": "public/image/Gsmp03.png", "caption": "SIGMA/W"},
+                    {"url": "public/image/Gsmp04.png", "caption": "QUAKE/W"},
+                ],
+                "featured": "true"
+            },
+            {
+                "labName": "Geotechnical Modeling Software",
+                "category": "civil engineering",
+                "productName": "Contaminant Transportation : CTRAN/W",
+                "desc": "CTRAN/W is a finite element CAD software product that can be used to model the movement of contaminants through porous materials such as soil and rock.\nAir Flow Analysis : AIR/W\nAIR/W is a finite element CAD software product for analyzing groundwater-air interaction problems within porous materials such as soil and rock.\nTemperature : TEMP/W\nTEMP/W is a finite element CAD software product for analyzing thermal changes in the ground due to environmental factors or the construction of facilities such as buildings or pipelines.\nUnsaturated Soil Analysis : VADOSE/W\nVADOSE/W is a finite element CAD software product for analyzing flow from the environment, across the ground surface, through the unsaturated vadose zone and into the local groundwater regime.",
+                "shortDesc": "VADOSE/W is a finite element CAD software product for analyzing flow from the environment, across the ground surface, through the unsaturated vadose zone and into the local groundwater regime.",
+                "images": [
+                    {"url": "public/image/Gsmp05.png", "caption": "CTRAN/W"},
+                    {"url": "public/image/Gsmp06.png", "caption": "AIR/W"},
+                    {"url": "public/image/Gsmp07.png", "caption": "TEMP/W"},
+                    {"url": "public/image/Gsmp08.png", "caption": "VADOSE/W"},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Pile Testing",
+                "category": "civil engineering",
+                "productName": "Low Strain Sonic Integrity Test/ Pile Integrity Test",
+                "desc": "Pile quality is often determined by performing a low strain integrity test directly after pile driving or within days after installation of cast-in-situ piles. Sonic Integrity Testing is a widely used method for testing the quality of concrete piles in a non-destructive way before they are incorporated in the final foundation plan. The Profound SIT-series meets the constructions industry's demand for professional Sonic Integrity Testing of concrete piles. With the Profound SIT-series you can verify the pile length and check the integrity of foundation piles on defects after installation. Testing can point out which piles require further examination. The SIT-series has been optimised for use in the field as well as for advanced interpretation and efficient management of the measurement data in the office. TheSIT models are robust, easily portable and user-friendly to operate at the construction site. One person can test numerous piles per hour.",
+                "shortDesc": "Pile quality is often determined by performing a low strain integrity test directly after pile driving or within days after installation of cast-in-situ piles.",
+                "images": [
+                    {"url": "public/image/Pt001.png", "caption": ""},
+                    {"url": "public/image/Pt002.png", "caption": ""},
+                ],
+                "featured": "true"
+            },
+            {
+                "labName": "Pile Testing",
+                "category": "civil engineering",
+                "productName": "Cross Hole onic Logging Test ",
+                "desc": "The Cross Hole Ultrasonic/Sonic test uses the Cross-hole Sonic Logging (CSL) method to perform high-resolution quality control of deep foundations.The system uses an ultrasonic wave sent from a transmitter to a receiver pulled through water filled access tubes embedded in the concrete. The measured arrival time and energy are strongly dependent on the concrete quality.Additional methods supported by the test are Single Hole Ultrasonic Testing and Tomography (two- and three-dimensional)",
+                "shortDesc": "The Cross Hole Ultrasonic/Sonic test uses the Cross-hole Sonic Logging (CSL) method to perform high-resolution quality control of deep foundations.",
+                "images": [
+                    {"url": "public/image/Pt003.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Pile Testing",
+                "category": "civil engineering",
+                "productName": "High Strain Pile Dynamic Analyzer/ Dynamic Load Test (PDA/ DLT) ",
+                "desc": "Dynamic Load Testing (DLT) is a frequently used worldwide technique to evaluate the bearing capacity of piles. The Profound PDA/DLT-system is used for both DLT and for Pile Driving Analysis (PDA) as a powerful tool to control the pile driving process and reduce risks involved.",
+                "shortDesc": "Dynamic Load Testing (DLT) is a frequently used worldwide technique to evaluate the bearing capacity of piles.",
+                "images": [
+                    {"url": "public/image/Pt004.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Pile Testing",
+                "category": "civil engineering",
+                "productName": "Pile Driving Analysis",
+                "desc": "During pile driving the performance of the hammer, the condition of the cushion, the behaviour of the pile and the driving resistance of the soil are accurately monitored and analysed.",
+                "shortDesc": "During pile driving the performance of the hammer, the condition of the cushion, the behaviour of the pile and the driving resistance of the soil are accurately monitored and analysed.",
+                "images": [
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Pile Testing",
+                "category": "civil engineering",
+                "productName": "Dynamic Load Testing",
+                "desc": "The Dynamic Load Test (DLT) is a considerably faster and cost-effective alternative for a Static Load Test (SLT). With the Profound PDA/DLT-system the bearing capacity of several piles can be assessed in a single day. DLT is used for cast-in-place, prefabricated concrete piles and all types of steel piles",
+                "shortDesc": "The Dynamic Load Test (DLT) is a considerably faster and cost-effective alternative for a Static Load Test (SLT).",
+                "images": [
+                    {"url": "public/image/Pt005.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Pile Testing",
+                "category": "civil engineering",
+                "productName": "STATNAMIC LTMoad Testing",
+                "desc": "Cost-effective method for determining the load bearing capacity of foundation piles. Statnamic is an innovative method for testing the load bearing capacity of foundation piles. Compared to static load testing: 90-95% less weight has to be loaded. Dependent upon the weight to be tested, Statnamic enables you to test up to 6 piles per day at much lower costs. Statnamic Load testing is performed in 4 stages. To prepare the test, the cylinder with pressure chamber is connected to the pile head and the reaction mass (only 5-10% of the load tested) is placed over the piston. The test starts with igniting the solid fuel propellant inside the pressure chamber, generating high-pressure gases and accelerating the reaction mass. At this moment, the actual loading of the pile takes place. The space caused by the upward movement of the reaction mass will be filled by gravel. The gravel catches the reaction mass and transfers the impact forces to the subsoil. The applied force, displacement and acceleration are directly monitored. All signals are measured by the data acquisition system whereby the mobilized capacity and static load displacement behaviour can immediately be presented in a load-displacement diagram.",
+                "shortDesc": "Cost-effective method for determining the load bearing capacity of foundation piles. Statnamic is an innovative method for testing the load bearing capacity of foundation piles.",
+                "images": [
+                    {"url": "public/image/Pt006.png", "caption": ""},
+                    {"url": "public/image/Pt007.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Pile Testing",
+                "category": "civil engineering",
+                "productName": "TNOWAVE - Wave Equation Program",
+                "desc": "TNOWAVE represents a group of wave equation application programs and is a powerful simulation tool to predict pile behaviour. The TNOWAVE applications are suitable for simulating pile-soil interaction under dynamic conditions.\nTNOWAVE is based on the one dimensional stress wave theory and allows the modelling of:\n1. All types of vibratory and impact hammers with anvils and cushions\n2.	Piles with cross sectional variations and cracks\n3. Tubular steel piles, open ended or closed\n4. Shaft friction and toe resistance\nTNOWAVE has the following application modules:\n1. PDPWAVE for impact hammer and vibratory hammer driveability studies \n2.	SITWAVE to determine local pile defects from sonic integrity testing signals by signal matching \n3.	DLTWAVE to determine pile bearing capacity from a dynamic load test by signal matching",
+                "shortDesc": "",
+                "images": [
+                    {"url": "public/image/Pt008.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Ground Penetrating Radars (GPR)",
+                "category": "civil engineering",
+                "productName": "GPR - What is a GPR",
+                "desc": "Ground-penetrating radar (GPR) is a geophysical technique that uses radar pulses to image the subsurface. How GPR Works\nGPR works by sending a radio signal or series of signals into the ground. The returning signals provide information about changing ground characteristics with depth. Basic radar output presents this as patterns of signals at depth against the distance travelled along the ground by the radar. The radar measures depth in terms of the time it takes for a signal to return after emission. This makes GPR a very good detector of pipes & services (intrusive material), buried building materials (also intrusive) and changes in stratigraphy whether man-made (e.g. pavement profiling) or natural (e.g. peat basin detection). GPR can also be used to look inside structures either to check on the state of construction or to locate hidden objects (e.g.voids).\nWhy GroundVue ? \nGroundvue range is designed by radar experts. They are the result of 30 years experience in advanced radar design - not only in Ground Penetrating Radar but also with avionics, military and SAR applications. Groundvue radars give you clear data quickly. They cut down on processing time: hardware design handles most of the clutter. Don't take our word for it - ask to see sample data.\nEfficiency,   Versatility   and   Toughness\n These are the fastest GPR systems on the planet, transmitting simultaneously on all channels, recording positional data (GPS or Total Station) at the same time as the GPR data, allowing for fast efficient data collection. They are built to deal with a variety of environments.\nData Clarity\n Clarity really matters. It's what allows you to take decisions on-site. It can make the difference between detection and non-detection, particularly in difficult environments. It can also save you time in post-processing.",
+                "shortDesc": "Ground-penetrating radar (GPR) is a geophysical technique that uses radar pulses to image the subsurface.",
+                "images": [
+                    {"url": "public/image/Gpr001.jpg", "caption": ""},
+                ],
+                "featured": "true"
+            },
+            {
+                "labName": "Ground Penetrating Radars (GPR)",
+                "category": "civil engineering",
+                "productName": "User Friendliness",
+                "desc": "A simple user interface which is easy to operate. Suited to operation by individuals whose expertise and technical abilities are drawn from their own disciplines - not necessarily GPR. Data is always recorded unprocessed. Real time viewing of the data can be in raw or processed format, but data recorded in raw format minimises the risk of inappropriately recorded data (or, worse, the need to redo a survey).\nRegulation Compliance Groundvue radars are designed to meet the ETSI specifications, EN-302 489 32. Can also meet FCC regulations if required.\nAward Winning Technology Last, but not the least, as well as the Groundvue GPRs, Utsi Electronics Ltd carry out a number of specialist designs for clients. Most of the Groundvue range of GPRs originated in this sort of development work.",
+                "shortDesc": "",
+                "images": [
+                    {"url": "public/image/Gpr002.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Ground Penetrating Radars (GPR)",
+                "category": "civil engineering",
+                "productName": "The GroundVue Range",
+                "desc": "Utsi Electronics offers, what can be considered as one of the widest range of GPRs, from extremely shallow depth scanning of few centimeters to hundreds of meters.\n1 .Frequency: 6GHz, Depth: 0 to 400mm, Channel: Single, Conditions: Dry, Radar: Groundvue 5C\n\n2. Frequency: 4GHz, Depth: 0 to 0.5m, Channel: Single, Conditions: Dry, Radar: Groundvue 5\n\n3. Frequency: 1.5GHz, Depth: 0 to 1m, Channel: Up to 4, Conditions: Dry, Radar: Groundvue 3\n\n4. Frequency: 1.5GHz, Depth: 0 to 1m, Channel: Single, Conditions: Inside ducting, Radar: Groundvue 3\n\n5. Frequency: 1GHz, Depth: 0 to 1.5m, Channel: Single up to 4, Conditions: Dry, Radar: Groundvue 3\n\n6. Frequency: 200 to 600MHz, Depth: 0 to 5m, Channel: Single up to 4, Conditions: Dry, Radar: Groundvue 3\n\n7. Frequency: 200 to 600MHz, Depth: 0 to 3m, Channel: Single up to 4, Conditions: Wetland, Radar: Groundvue 3\n\n8. Frequency: 125 to 500MHz, Depth: 0 to 10m, Channel: Single up to 4, Conditions: Dry, Radar: Groundvue 3\n\n9. Frequency: 125 to 500MHz, Depth: 0 to 5m, Channel: Single up to 4, Conditions: Wetland, Radar: Groundvue 3\n\n10. Frequency: 30 to 100MHz, Depth: 0.5 to 20m, Channel: Single, Conditions: Dry, Radar: Groundvue 2\n\n11. Frequency: 30 to 100MHz, Depth: 0.5 to 11m, Channel: Single, Conditions: Wetland, Radar: Groundvue 2\n\n12. Frequency: 30 to 100MHz, Depth: 0.5 to 11m, Channel: Single, Conditions: Freshwater, Radar: Groundvue 2\n\n13. Frequency: 10 to 30MHz, Depth: 0 to 200m, Channel: Single, Conditions: Any, Radar: Groundvue 8\n\n14. Frequency: 40MHz, Depth: 0 to 100m, Channel: Single, Conditions: Any, Radar: Groundvue 7",
+                "shortDesc": "",
+                "images": [
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Ground Penetrating Radars (GPR)",
+                "category": "civil engineering",
+                "productName": "Groundvue 2",
+                "desc": "Groundvue 2 is a user friendly and uses easy to operate dedicated software. Operating depth (measured in travel time) and the distance between samples must be defined accurately. All other parameters can be reset after survey.\nTypical Applications For environmental monitoring including wetland & peat, and archaeological detection in wetlands.\nDepth Range At 640ns:0.5m to 30m in dry conditions 0.5m to 11m in waterlogging \nAt 1280ns:0.5m to 60m in dry conditions 0.5m to 20m in waterlogging Resolution : 200mm\nSpecial Features \nArrayed antennas, fully screened, suitable for towing behind a vehicle during survey. Optional GPS/Total Station data input. Data storage direct to solid disk",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Gpr003.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Ground Penetrating Radars (GPR)",
+                "category": "civil engineering",
+                "productName": "GroundVue 3_8 Channel",
+                "desc": "This is the latest high speed flexible Groundvue multi-channel. It can be used in any configuration, from a trolley, from a vehicle, hand towed. Antennas can be attached, detached for another application, changed around at will. And the viewing parameters can be changed during operation. This is the radar used to detect fibre optic cables (video coming soon) and also to accurately track the direction of utilities at one sweep.\nTypical Applications\n The wide range of antenna frequency makes this an extremely versatile equipment. The applications range from scanning for structural integrity of RCC structures, rebar mapping, fire damage, road pavement inspection, utility mapping, archeological surveys etc. to name a few.\nAntenna Frequencies\n 250MHz, 400MHz, 1GHz, 1.5GHz, 4GHz, 6GHz. 100MHz coming soon.\nHigh Speed Multi-Channel\n1. Up to 1,600 scans per second, data collection speed consistent with traffic speeds\n2. Simultaneous triggering without cross channel interference\n3. Up to 8 channels: select any number from 1 to 8",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Gpr004.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Ground Penetrating Radars (GPR)",
+                "category": "civil engineering",
+                "productName": "Wi-Fi",
+                "desc": "1.Wi-Fi operation, Ethernet cable for frequencies >1GHz where Wi-Fi cannot be used Crack Depth Measurement Any GPR can detect areas of generalised cracking but the special crack detection head is used for:\n2. Accurate detection of joints in concrete\n3. Depth measurement of surface (top down) cracking\n4. Detection of subsurface (bottom up) cracking on roads, airports and in structures such as concrete loading bays and flat roofs",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Gpr005.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Ground Penetrating Radars (GPR)",
+                "category": "civil engineering",
+                "productName": "Automatic Velocity Calibration",
+                "desc": "Groundvue antennas are simultaneously triggered, not sequentially, and without cross channel interference. Using multiple receivers connected to a single transmitter, continuous comparative data is created. Layer tracing generates the information needed to calculate transmission velocity for the full length of the data collected. In the process, any anomalous areas show clearly.",
+                "shortDesc": "",
+                "images": [
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Ground Penetrating Radars (GPR)",
+                "category": "civil engineering",
+                "productName": "Groundvue 3_1",
+                "desc": "This is the single channel version of the wireless Groundvue 3_8 and can be used with any of the Groundvue 3 antennas (one at a time).",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Gpr006.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Ground Penetrating Radars (GPR)",
+                "category": "civil engineering",
+                "productName": "Groundvue 5",
+                "desc": "Groundvue 5 is user friendly and uses easy to operate dedicated software. \nFrequency ranges are 2GHz to 6GHz .\nSpecial Features:\n1.	Hand held (dimensions excluding connectors and handles: 240x16x90mm)\n2.	Lightweight\n3.	Horn antennas\n4.	Fully screened\n5.	Automatic Mapping Programme available (at no extra cost)",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Gpr007.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Ground Penetrating Radars (GPR)",
+                "category": "civil engineering",
+                "productName": "Groundvue 5C ",
+                "desc": "Frequency Range is 6 GHz central (1GHz to 8GHz) and Depth Range Up to 400mm.\n Special Features:\n1.	Highest available GPR resolution capability\n2.	Handheld\n3.	Lightweight\n4.	Dimensions excluding connectors and handles: 240x16x90mm\n5.	Horn antennas.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Gpr008.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Ground Penetrating Radars (GPR)",
+                "category": "civil engineering",
+                "productName": "Groundvue 6",
+                "desc": "Groundvue 6 is a thin inline spread spectrum GPR pulled behind the operator for harsh environments. Frequency Range is 7MHz to 30MHz &Depth Range is Up to 180m.\nSpecial Features:\n1.	Hermetically sealed\n2.	Internal batteries\n3.	Wireless synchronization and data transfer\n4.	Ultrasensitive correlation receiver\n5.	Internal data stacking (to improve signal to noise ratio)\n6.	GPS interface",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Gpr009.jpg", "caption": ""},
+                     {"url": "public/image/Gpr009a.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Ground Penetrating Radars (GPR)",
+                "category": "civil engineering",
+                "productName": "Groundvue 6C",
+                "desc": "Frequency Range 15MHz to 60MHz and Depth Range Up to 90m.\nSpecial Features:\n1.	A thin inline spread spectrum GPR pulled behind the operator for harsh environments\n2.	Hermetically sealed\n3.	Internal batteries\n4.	Wireless synchronization and data transfer\n5.	Ultrasensitive correlation receiver\n6.	Internal data stacking (to improve signal to noise ratio)\n7.	GPS interface",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Gpr010.jpg", "caption": ""},
+                     {"url": "public/image/Gpr010a.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Ground Penetrating Radars (GPR)",
+                "category": "civil engineering",
+                "productName": "Groundvue ",
+                "desc": "This low frequency (30MHz) GPR with snake antennas was formerly subject to an exclusivity agreement. As this agreement has now been cancelled, this radar is now available for hire or purchase.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Gpr011.jpg", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Vibration & Geotechnical Monitoring",
+                "category": "civil engineering",
+                "productName": "Vibration Monitoring - VIBRA Series Vibration Monitoring",
+                "desc": "VIBRA Series Vibration Monitoring With a Profound VIBRA system you can easily monitor vibrations, which may cause damage to buildings and sensitive equipment or cause nuisance to persons. Vibrations can be caused by traffic, pile driving, demolition work or blasting. Setting up the system on site is easy: attach the 3-dimensional sensor to the structure to be monitored, switch on the system and start measuring. During measuring the VIBRA displays the current vibration values of the 3 directions including frequency, the maxima, besides date, time, remaining battery capacity, available memory.The VIBRA can be left unattended to operate continuously for weeks. The system is robust, lightweight, portable and battery-operated. At the same time, the system provides a fully continuous and automatic registration of the vibration peak values up to a month.",
+                "shortDesc": "VIBRA Series Vibration Monitoring With a Profound VIBRA system you can easily monitor vibrations, which may cause damage to buildings and sensitive equipment or cause nuisance to persons.",
+                "images": [
+                     {"url": "public/image/Vgm001.png", "caption": ""},
+                ],
+                "featured": "true"
+            },
+            {
+                "labName": "Vibration & Geotechnical Monitoring",
+                "category": "civil engineering",
+                "productName": "Geotechnical Monitoring - Intelligent Sensor (IS) System",
+                "desc": "The Profound Intelligent Sensor-system is an effective tool for precision monitoring in the geotechnical field. Real-time measuring data on your PC enable you to monitor your project remotely. Just one network cable interconnects the 'Intelligent Sensors', whereby the distance between measurement points can be hundreds of metres. Typical applications include monitoring of settlements and pore pressures, as well as load monitoring and strain measurements. Different types of measurements from sensors such as Groundwater level, Inclinometers, Load cells, Potentiometers, Pore pressure sensors, Pressure sensors, Vibrating wire sensors, Liquid Level sensors (Profound IS-LLS)can easily be combined in one network. All relevant parameters, like sensor type, calibration and scale factors can be stored in the memory of the IS-sensor. You only have to set the measuring frequency in the network PC and the PC will collect the measurements accordingly.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Vgm002.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+             {
+                "labName": "Vibration & Geotechnical Monitoring",
+                "category": "civil engineering",
+                "productName": "Geotechnical Monitoring - Intelligent Sensor (IS) System",
+                "desc": "The Profound Intelligent Sensor-system is an effective tool for precision monitoring in the geotechnical field. Real-time measuring data on your PC enable you to monitor your project remotely. Just one network cable interconnects the 'Intelligent Sensors', whereby the distance between measurement points can be hundreds of metres. Typical applications include monitoring of settlements and pore pressures, as well as load monitoring and strain measurements. Different types of measurements from sensors such as Groundwater level, Inclinometers, Load cells, Potentiometers, Pore pressure sensors, Pressure sensors, Vibrating wire sensors, Liquid Level sensors (Profound IS-LLS)can easily be combined in one network. All relevant parameters, like sensor type, calibration and scale factors can be stored in the memory of the IS-sensor. You only have to set the measuring frequency in the network PC and the PC will collect the measurements accordingly.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Vgm002.png", "caption": ""},
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Vibration & Geotechnical Monitoring",
+                "category": "civil engineering",
+                "productName": "BAT®-system - Accurate Groundwater Monitoring",
+                "desc": "The patented BAT - Groundwater Monitoring System represents an innovative and proven technology for groundwater monitoring and testing. For over twentyfive years the BAT-system has been successfully used in a great number of groundwater monitoring projects worldwide. With the BAT®-system youmeasure accurately and efficiently the pore pressure, keep track of pressure fluctuations in the soil, have a fully digital system which stores the data in the internal memory of the BAT®-sensor, download results to a PC for further analysis, can also directly read out pore pressuresdetermine the permeability of the soil (with an additional set), collect accurate groundwater samples (with an additional set) The   BAT-system   is   multi-purpose   and   flexible.   You   decide   when   and   what   to measure. You can either measure manually or continuously. The system enables you to follow the progress of your project remotely. Through a GSM-link you can download the measurement results where and when you like, enabling you to analyse the measurement data on your own PC. The pressure sensor is easily retrievable and can be used over and over.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Vgm003.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Rock - Direct Shear",
+                "desc": "The Direct Shear System for Rocks contains closed-loop, servo-controlled, electro-hydraulic shear and normal load actuators which, in conjunction with the advanced software, allow for automatic performance of a Direct Shear Test. The software uses inputs from up to four normal deformation sensors and the normal load sensor to automatically calculate the average normal deformation of the specimen. This allows for the system to automatically perform either a constant normal stress or a constant normal stiffness test.",
+                "shortDesc": "The Direct Shear System for Rocks contains closed-loop, servo-controlled, electro-hydraulic shear and normal load actuators which, in conjunction with the advanced software, allow for automatic performance of a Direct Shear Test.",
+                "images": [
+                     {"url": "public/image/Rfl001.png", "caption": ""},  
+                ],
+                "featured": "true"
+            },
+             {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Portable Direct Shear For Rocks",
+                "desc": "This shear box has been designed to receive irregularly shaped samples with surfaces measuring up to 115 x 125 mm or cores with a maximum diameter of 102 mm. The lower half of the box is connected to two hydraulic rams which generate the shearing force (in both directions) and theupper half supports the ram that applies the load at a right angle to the failure surface. The horizontal and vertical actuators are connected to two manually-operated hydraulic pumps. During the test the normal stress and the shearing stress are read on two independent dial gauges calibrated in engineering units; if the measurement of the shear deformation is required an appropriate dial gauge can be mounted on the support.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl002.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Triaxial Rock Testing Systems",
+                "desc": "The system is capable of performing static and dynamic closed-loop strain or stress controlled as well as post failure behavior tests. Included with this system is our true 32-bit Windows compatible software. It allows sending directly your test data to any computer connected to your local network. Our new software includes a database system to keep track of all the data generated at your lab with any of our testing systems. Using a Windows network system in your lab facilitates the transferring of your test data directly into other Windows programs such as Word or Excel for report generation as well as to easily backup your important test results. The system meets the specifications of the International Society for Rock Mechanics (ISRM) for triaxial testing of rock samples.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl003.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "RAPID Triaxial Rock Testing System",
+                "desc": "In addition to the features of standard Triaxial Rock testing System offered by us, the Rapid Triaxial Rock Testing System is designed to perform rock triaxial tests simply and quickly. An automatic hydraulic lift and sliding base for the triaxial cell simplifies specimen preparation and advanced software allows for a completely automated testing procedure. It features a closed-loop, digitally servo controlled axial actuator for performing accurate triaxial and unconfined compression tests on rock specimens. Meets all ASTM and ISRM specifications. In addition, the system is also capable of performing permeability, hydraulic fracturing, indirect tension, and many other advanced rock tests.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl004.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+             {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Combined Direct Shear &Triaxial System",
+                "desc": "This system features electro-hydraulic closed-loop digital servo control of the shear and normal loads for test automation. The included software program accepts inputs from the normal load sensor and up to three normal deformation sensors (the software calculates automatically the average normal deformation). Loads or deformations for both the shear and normal actuators can be set to automatically perform advanced tests such as the Constant or Calculated Normal Stiffness Direct Shear Test.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl005.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Polyaxial/ True Triaxial Test",
+                "desc": "The Polyaxial Rock Testing system can be used to study the intermediate principal stress effect on rock engineering behaviour and describe adequately the strength of rock under a general system of Polyaxial compressive stresses. The system is designed to apply 3 independent stresses (σ1σ,2 and σ3) onto a cubical test specimen. The stresses are achieved through hydraulic intensifiers applying pressure to solid platens in contact with the specimen. The system can be upgraded with pore pressure and temperature control. We also offer hydraulic fracturing fixtures to approximate the effects of anisotropic stress state on borehole stability. Ultrasonic sensors can also be provided to study the effects anisotropic stress conditions on compression and shear wave velocities. Velocities for all three axes can easily be measured during Polyaxial tests with this option.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl006.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Uniaxial Testing System ",
+                "desc": "The Uniaxial Testing System is capable of performing static or dynamic uniaxial tension and compression tests as well as numerous other tests that can be used to determine the strength parameters of a rock specimen. The system features a closed-loop, electro-hydraulic servo, which, in conjunction with advanced software, can completely automate the testing procedure.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl007.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Hydraulic Fracture Test",
+                "desc": "The Hydraulic Fracturing Tester can be used to perform fracture tests, well bore stability tests, and permeability tests with or without a confining pressure. These tests can be performed at various temperatures, as an optional temperature control device can control the temperature up to 200°C. This makes the Hydraulic Fracturing Tester ideal for testing a wide variety of in-situ rock conditions. The system includes a high-pressure triaxial cell and a hydraulic balance is used to apply either a hydrostatic stress state or apply a deviator stress in the vertical direction. It contains numerous feed-through lines for electronic measuring equipment and multiple fluid ports.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl008.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+             {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Rock Creep Testing System",
+                "desc": "The Rock Creep Testing System is engineered to perform long term tests without the need of a continuous power input. This system is capable of operating without power for several days by using a compressor with a large tank with data acquisition being powered through the use of a battery. This design therefore eliminate the need for a power supply such as a power cord and socket that may limit the user. This system operates with only 800 kPa air pressure with minimum flow. The system includes load and deformation digital indicators along with an analog gauge which allows the user to easily read the applied load. Advanced software and USB based data acquisition are also included in order to simplify the gathering and recording of data and easily interface with the user's laptop/computer. This is therefore an ideal system for long-term testing and simple data gathering, thus enhancing the user's experience.\nOn-specimen deformation instrumentation can also be provided as well as triaxial cells and other testing components.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl009.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Fast Pulse-Decay Permeability Apparatus",
+                "desc": "The Fast Pulse-Decay Permeability Apparatus is designed for measurement of permeability in micro-porous material such as gas shale and other reservoir rocks, in order to determine the capacity and flow characteristics of the rock matrix. The system is capable of measuring rock permeability less than 1  µD (microdarcy). The system includes two stainless steel large reservoirs and two smaller stainless steel reservoirs. Also included are nine zero-volume-change ball valves and one needle valve for precise flow control. \nThe system components are secured in an insulated metal cabined with front panel mounted valves and controls. The system also features precise temperature control inside the cabinet for elimination of any errors from temperature induced volume expansion and contraction of the fluid and gas inside the reservoirs.\nIncludes all necessary valves and fluid lines to perform the Fast Pulse-Decay permeability test when used with any of our triaxial systems.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl010.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Ultrasonic Velocity Test System",
+                "desc": "The Ultrasonic Velocity Test System is a turnkey system and includes everything required to perform Ultrasonic Velocity measurements on laboratory specimens. The new hardware and software utilize the latest technology to allow for precise determination of wave velocities. With the system, the user has the ability to control the pulse signal polarity and number of pulses to stack, this is important in helping to eliminate the influence of the Compressional wave signals on the relatively weaker Shear wave signals. The uses a fast-acting pulser that provides excitation to the ultrasonic sensor and an ultra high speed Analog-to-digital converter for storing the resulting waveforms signals. The sampling rate can be selected from 40 MHz to a sampling rate as low as 156 Hz allowing the user to capture a wide range of ultrasonic signals.Within the Ultrasonic software, the user is able to digitally control the receiver and pulser ensuring an easy setup and high degree of repeatability.\nThis system is provided with software that allows for automatic measurement while performing triaxial or unconfined shear loading. The ultrasonic data can be collected at any specified interval, such as time, stress, strain or any other test parameter.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl011.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Circumferential Velocity Anisotropy Apparatus",
+                "desc": "The Circumferential Velocity Anisotropy Apparatus is used to determine the compression P-wave velocities and shear S-wave velocities in rock core specimens in different orientations. This apparatus, when used with our ultrasonic measurement device, can obtain the velocity versus angle and height data with relative ease and precision.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl012.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Pore Fluid Transfer Cell",
+                "desc": "The Pore Fluid Transfer Cell when used with HPVC pressure intensifiers are ideal for the control of the pore pressure in triaxial tests, head pressure in permeability tests, or fluid pressure in hydro-fracture tests when corrosive fluids, such as brine, are used as the pore fluid. Transfer cell has a 400 cc volume capacity with absolute pressure of 140 MPa and differential pressure across the rolling diaphragm of up to 1,000 kPa. Larger Capacity cells are also available on request.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl013.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Hoeck Cells For Triaxial Tests",
+                "desc": "For cylindrical rock samples, cell length is twice the diameter. The cells are complete with caps, sleeve, high pressure joints and pistons. A kit of 5-6 sleeves and the couple of platens (load spreaders) are suggested",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl014.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Automatic Pressurizer For Hoeck Cell",
+                "desc": "For use in combination with compression testing machine for performing tests with Hoek cells (pressurizes automatically up to 700 bar). The console houses the power unit and digitalcontrol unit which acts as user interface. The system comprises Automatic, electro-hydraulic power unit characterized by very low noise and heat generation so it is ideal for continual usage. Monotronic digital display/readout unit with relevant strain transducer for measuring pressures up to 700 bar and Hydraulic hose with quick coupling.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl015.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Rock Deformation Device",
+                "desc": "The Rock Deformation Device measures axial and lateral strain directly on the specimen providing accurate results. The device consists of an upper and lower support ring machined with a low weight, high strength design. This device can be used within our high-pressure triaxial cell and also used for elevated or cold temperature testing. Elastic constants such as Young's modulus and Poisson's ratio can be determined as well as inelastic strains that occur after sample failure (post failure analysis). Direct servo control of axial or radial strains can be performed with this device.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl016.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+             {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Diametral Deformation Device",
+                "desc": "The Diametral Deformation Device is used to measure specimen diameter changes in order to calculate radial strains. This device mounts directly onto a specimen through the use of long screws attached to the arms of the device that press onto the specimen. By using these long screws, the device can be quickly and easily adjusted to fit a large range of specimen diameters.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl017.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Differential Strain Curve Analysis Measurement Device",
+                "desc": "The Differential Strain Curve Analysis Measurement Device is designed for testing cubical rock specimens under hydrostatic conditions in order to determine the in-situ stress state. The results obtained using the device allow for characterization of the distribution of crack porosity with crack closure pressure as well as the crack orientation as a function of crack closure pressure amongst other parameters.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl018.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Indirect Tension/ Brazilian Test",
+                "desc": "The Indirect Tension Module is used to determine the indirect tensile strength by the Brazilian test. This device conforms to the test standard established by the International Society for Rock Mechanics (ISRM). The device has an upper and lower support ring created with a low weight, high strength design.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl019.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Rock Fracture Toughness fixture",
+                "desc": "The Rock Fracture Toughness fixture is designed to test cylindrical specimens under unconfined conditions to determine the fracture toughness of rock materials. The fracture toughness results allow for classification and characterization of intact rock with respect to its resistance to crack propagation. Fracture toughness data can be used in analysis of hydraulic fracturing (fracking) or as an index for rock fragmentation processes such as crushing or tunnel boring.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl020.png", "caption": ""},  
+                     {"url": "public/image/Rfl021.png", "caption": ""}, 
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Rock Abrasiveness Apparatus ",
+                "desc": "The Rock Abrasiveness Apparatus is used for measurement of rock abrasiveness under the standards specified by the Cerchar test. The test consists of measuring the wear flat on the standard steel indenter with 200 kg/mm2 hardness loaded with 70 N force, after it has scratched 10 mm distance on the rock surface. The indenter is examined under the microscope and the amount of wear is correlated to the Cerchar Abrasiveness Index (CAI). The apparatus features precision slide for smooth movement of the rock specimen over the required scratch distance. It also comes with graduated knob for accurate scratch distance control with 0.01 mm precision. The slide movement is controlled with precision threaded acme rod with 1 mm pitch.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl022.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Pressure Controlled Coring Machine",
+                "desc": "The Pressure Controlled Coring Machine features a pressure controlled feeding mechanism for even sample coring and it is able to achieve a large range of spindle speeds to provide optimum performance when preparing test specimens, regardless of the properties of the material being sampled.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl023.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Automatic Rock Lab Saw",
+                "desc": "Automatic rock core saw with 1 HP motor, 14 aluminum wheels regulate band-saw motion. Band-saw with industrial diamonds.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl024.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Specimen Grinder/Computer Controlled Specimen Grinder",
+                "desc": "The Specimen Grinder provides the final step to preparing test specimens with parallel and flat ends according to ASTM and ISRM specifications. The grinder is driven by a heavy-duty 2.0 HP electric motor for durability. The grinder comes with a 177 mm diamond cup wheel, which can easily grind specimens from 25 mm to 150 mm diameter in a single pass. The grinder can be supplied with the optional air cooling and dust systems. Also available is the optional automation upgrade for computer controlled grinding.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl025.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Slake Durability Apparatus",
+                "desc": "This apparatus assists in the evaluation of the resistance of rocks to disintegration when subjected to different drying and water-immersion cycles. The test consists in oven-drying a number of pieces of the material and then subjecting them to wear inside a drum rotating in water. This procedure is repeated two or more times; the disintegration index is determined by the percentage loss in weight that the sample undergoes.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl026.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Slake Durability Apparatus",
+                "desc": "This apparatus assists in the evaluation of the resistance of rocks to disintegration when subjected to different drying and water-immersion cycles. The test consists in oven-drying a number of pieces of the material and then subjecting them to wear inside a drum rotating in water. This procedure is repeated two or more times; the disintegration index is determined by the percentage loss in weight that the sample undergoes.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl026.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": "Rock Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Down-hole/ Seismic Refraction System",
+                "desc": "The Down-hole/ Seismic Refraction System is a PC based instrument that is very simple to operate. Some features include advanced Digital Signal Processing and signal enhancement including waveform stacking, filtering, and spectral analysis in real time. The software package offers a convenient graphical user interface to measure P-and S-wave travel times and automatically calculate wave velocities. More advanced analyses are also possible with the use of sophisticated digital filters and spectral parameters that can easily be obtained with a click of the mouse. Special techniques are used in this program to correct or eliminate time shifting of the filtered waveforms. Acquired data may also be transferred to spreadsheet and database programs. 16-bit resolution coupled with state of the art software analysis tools provide for an ideal Down-hole or Seismic Refraction test system to measure in-situ compressional and shear wave velocities. Designed for 6 in to 12 in diameter bore hole sizes, but optional accessories are available to accommodate smaller or larger boreholes.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Rfl027.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+             {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Compaction, Moisture Testing - Nuclear Density Gauge (NDG)",
+                "desc": "Moisture/Density Gauges use an advanced micro-processor- based technology to provide highly-accurate measurements of density and moisture that are automatically computed for direct readouts of wet density, dry density, moisture content, percent of moisture, percent of compaction (Proctor or Marshall), void ratio and air voids. The NDG can be used to test the degree of compaction of practically any paving material such as soil, aggregate, asphalt, concrete, even flyash. Manufacturer approved re-calibration facilities are available to ensure that gauge accuracy is maintained over several years of use.",
+                "shortDesc": "Moisture/Density Gauges use an advanced micro-processor- based technology to provide highly-accurate measurements of density and moisture that are automatically",
+                "images": [
+                     {"url": "public/image/Sf001.png", "caption": ""},  
+                ],
+                "featured": "true"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Electrical Density Gauge (EDG)",
+                "desc": "The Electrical Density Gauge (EDG) is a nuclear-free alternative for determining the moisture and density of compacted soils used in road beds and foundations. The EDG is a portable, battery-powered instrument capable of being used anywhere without the concerns and regulations associated with nuclear safety. Its user-friendly, step-by-step menu guides the user through each step of the testing procedure and cautions the user when values do not correspond to established curves for the material being tested. Easy-to-use, the EDG can be used as a construction aid to monitor day-to-day compaction operations by providing performance and measurement results highly comparable to those achieved with traditional methods, including the nuclear gauge and/or a sand-cone and oven moisture test combination.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf002.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Strength Measurement - Electronic Plate Bearing Tester-Static",
+                "desc": "The Electronic Plate Load Device allows simple determination of the load-bearing and deformation capacity of soils. The load settlement lines and the modulus of deformation Ev1, Ev2 are determined to DIN 18134:2001-09 or E DIN 18134:2010-04 (plate load test). Thanks to the splash proof housing, external buttons and a backlit display, it can also be used under inclement ambient conditions. Test logs can be printed out directly on site. The results saved on an SD card during the test can be transferred to the PC and are available for further processing under Microsoft Excel®",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf003.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Dynamic Light Weight Deflectometer/ Drop Weight Tester",
+                "desc": "This dynamic plate load test is used in earthworks, civil engineering, road construction and rail track construction to determine the load-bearing capacity and to assess the compaction of soils, loose base courses and soil improvement in accordance with TP BF - StB Part B 8.3. The test method is suitable for course-grained and mixed-grained soils up to a maximum grain size of 63 mm. The test result is displayed in MN/m². The measuring range of the light drop weight tester lies between 15 and 70 MN/m². With the 1.5x impact load achieved with the 15 kg loading device, the measuring range is extended to 70 - 105 MN/m². This is required for heavy base courses in road beds and for ballast.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf004.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Geogauge",
+                "desc": "The GeoGauge is a unique, QC/QA field tool that can be used to measure the uniformity of unbound pavement layers by measuring the variability in stiffness throughout a structure. It is an excellent tool for identifying construction anomalies that would otherwise go undetected during construction where only density or percent compaction measurements were used. GeoGauge can be used to verify that the stiffness/ modulus values assumed in the design specifications of new or rehabilitated pavement structures are met. This dynamic technology used by the GeoGauge simulates real in-use conditions. This factor allows the GeoGauge to directly measure in-place engineering properties during the construction process",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf005.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Soil Strength Classifier",
+                "desc": "Hand-lever operated, soilstrength classifier provides fastmanual approximations of unconfined compressive strength on many soil types inthe field or lab. Platen accepts upto 2in (51mm) sample diametersand up to 4-1/2in (114mm)lengths. Reads loads on 4-1/4in (108mm) dial face with ±1% ofdial capacity as held with secondmaximum-reading pointer.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf006.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+             {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "In-situ CBR Test",
+                "desc": "The 50KN mechanical jack is designed to perform C.B.R. tests in-situ (BS 1377, ASTM D 4429) but may also be used for plate bearing tests. The aluminium housing encloses a worm screw reducer. A quick-release key allows the rapid adjustment of the plunger.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf007.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Motorized Dynamic Penetrometer - 30 Kg",
+                "desc": "The 30 Kg motorized dynamic penetrometer is supplied with a 30 kg hammer having a 20 cm fall andcones with 10 sq. cm2 section. The hydraulic drive unit slides along a guide bracket mounted on a robust foot plate. The support frame has an overall weight of around 30kg and may be disassembled so as to reduce size for transport.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf008.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+             {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Dual Mass Dynamic Cone Penetrometers - Quick Connect Ends",
+                "desc": "Developed by the Army Corps of Engineers, Dynamic Cone Penetrometers (DCPs) provide a low-cost, efficient test method for quickly determining in-situ CBR values of pavement base, sub base and sub grades. DCPs are primarily used to determine in-place soil shear strength in road construction with CBR values from less than 0.5 to 100% and bearing values ranging from 430 to 10,800 psf. They can readily be used for depths from 30 inches to 6 foot with optional drive rods and extensions. The DCPs comply with ASTM D6951 specifications and come with a chart to compute CBR values, as well as an Excel spreadsheet template, which automatically charts the test results. Other variants of Dynamic Cone Penetrometers are also available.",
+                "shortDesc": "",
+                "images": [
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Static  Penetrometer  100KN  -  Trailer  Mounted ",
+                "desc": "The machine is mounted on a single axle trailer complete with electric installation, lights, overrun brake (which automatically comes into operation on braking the towing vehicle) and hand brake. The group may be attested for road circulation. Total weight is approx. 1500 kg. During transportation the hydraulic drive ram is lowered between the two vertical support columns and inclined in a horizontal position so as to reduce the total height. Anchorage is provided by the classic system of spiral anchors driven into the ground using a hydraulic wrench which requires the presence of two operators.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf009.jpg", "caption": ""}, 
+                     {"url": "public/image/Sf009a.jpg", "caption": ""}, 
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Static Cone Penetrometer, Digital",
+                "desc": "The digital, static cone penetrometer (DSCP), with its large, digital readout, makes testing and recording readings easy. The DSCP can be used to evaluate soil consistency by determining the soil's level of compaction and/or the bearing capacity. The DSCP is especially useful in evaluating shallow foundations and pavement subgrades where fine-grained and soft soils are being used. The DSCP can also be used to aid technicians in quickly selecting sites for testing, as well as correlating with other tests, based on local conditions, such as standard or modified Proctor, CBR or bearing capacity. The DSCP uses a dual-rod design, which eliminates the need to correct for soil friction on the rod as the cone is pushed through the material. Penetration resistance is read directly from the cone tip and registered on the digital display.  Other variants of Static Cone Penetrometers are also available.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf010.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Light-weight Static/ Dynamic Self Anchoring Penetrometer ",
+                "desc": "This instrument is able to make both static and dynamic penetrometer tests. To change from one test to another, it is only necessary to change the cone. In the static form, no preliminary operation to anchor the machine to the ground is necessary because the special cone is self-anchoring; between one static reading and the next, the sounding rod advancement is achieved by percussion. In the dynamic configuration, normal fixed or “lost” cones (with diameter larger than the sounding rods) are used. If the hole wall is unstable, the parasitic friction that generates along the rod string may be eliminated by the injection of liquids. The functioning of the unit is fully hydraulic both during the driving and extraction phase.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf011.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Soil Penetrometer, Pocket/ Dial-Type",
+                "desc": "A sophisticated pocket penetrometer offering greater capacity and sensitivity than standard available pocket type penetrometers. Maximum value is retained on the dial until released via push-button. Inner dial scale 0 to 6.0, with 0.1 divisions in tsf and kg/cm2. Outer scale gives load strength over 0 to 11.0 with 0.1 divisions in kg. This reading is used with charts (included) to estimate safe bearing pressures, depending on plunger used and soil type. Values indicated relate to the standard 0.25in dia. plunger. Other variants of Pocket Penetrometers are also available",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf012.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Geovane Tester",
+                "desc": "The Geovane is a hand-heldinstrument used for determining soilshear strength providing the readingin kPa. A 19mm vane blade is screwedinto the base of the Geovane and thevane is pushed into the soil and rotated and reading is read off theface when the soil fails. The pointerstays in place when failure occursallowing you to look up the indicatedreading on the supplied calibrationchart to get your reading in kPa fromzero to 200.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf013.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Torvane Shear Tester ",
+                "desc": "This device is recommended forthe rapid determination of shearstrength of cohesive soils, ineither the field or laboratory. Itpermits the determination of alarge number of strength valueswith different orientation offailure planes. It is simple to usewith sample trimming eliminated.Extensive laboratory testingindicates excellent agreement between the unconfinedcompression test and the sheartester.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf014.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Dielectric/ Electrical Conductivity - Percometer",
+                "desc": "The Percometer is a reliable, accurate, lightweight and easy-to-use instrument for measuring the dielectric value (er), electrical conductivity (J) and temperature of materials indoors and outdoors. Dielectric value is an indication of the volumetric moisture content and the state of molecular bonding in a material. Electrical conductivity is a reflection of ionicconcentration, water content and temperature. The ability of the Percometer to measure these values has made it an extremely versatile tool in a multitude of tasks. The Pecometer has been very successful in providing data for The Tube Suction Test (TST), which was developed by the Finnish National Road Administration and the Texas Transportation Institute (TTI) for assessing the moisture susceptibility of granular base materials.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf015.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Field Resistivity - Resistivity Meter",
+                "desc": "The resistivity meter can be easily usedto measure resistivity of soil in-situ usingthe 2, 3, or 4 electrode method or withthe soil box to measure resistivity of soilor water in the range of distilled to seawater. It has a wide range (0.01 ohm to1.1 megohm) in 8 ranges with 10%overlap. It is fully temperature stabilizedover temperature ranges encounteredin all field conditions; is insensitive toA.C. or D.C. ground currents; can beused safely in wet ground and comeswith (1) 12-volt battery and shouldercarrying strap.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf016.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Hydraulic Conductivity - Guelph Permeameter Kit",
+                "desc": "The Guelph permeameter, supporting the ASTM D5126, is an easy-to-use instrument for quickly and accurately measuring in-situ, hydraulic conductivity in all types of soils. The equipment can be transported, assembled, and operated easily by one person. Measurements can be made in 1/2 to 2 hours, depending on soil type, and require only about 2.5 liters of water. Measurements can be made in the range of 15 to 75cm below the soil surface. The Guelph permeameter is a complete kit consisting of the permeameter, field tripod, well auger, well preparation and cleanup tools, collapsible water container, and vacuum test hand pump, all packaged in a durable carrying case",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf017.png", "caption": ""},  
+                     {"url": "public/image/Sf017a.png", "caption": ""}, 
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Sampling - Soil Sampling Kit",
+                "desc": "Basic sampling kit provides everything you'll need to auger to a target depth as deep as 12ft and obtain a relatively undisturbed soil core sample for soil testing. The kits are used worldwide by construction companies, consultants and engineering firms for site investigations. Other sampling kit options are also available. Please contact us for more details.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf018.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Shelby Tubes",
+                "desc": "Shelby tube samplers are thin-walled, hollow steel tubes, which are driven into the ground to extract a relatively undisturbed soil sample for use in laboratory tests used to determine density, permeability, compressibility and strength.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf019.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+             {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Soil Sampling Auger Tube Set",
+                "desc": "Auger and sampling tube with (2) 12in (305mm) extensions. Set contains auger and sampling tube. Components are plated steel to resist abrasive action of soil. Includes 1.25in (25mm) dia. by 12.5in (318mm) long auger, 1in (approx. 25mm) OD by 12.5in (318mm) long sampling tube, two 12in (305mm) extension rods, handle and a fiberboard carrying case.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf020.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Power Mechanical Earth Drill",
+                "desc": "For soil sampling, construction and more, earth augers are gasoline powered and portable. Using one operator, they allow fast and easy drilling. They feature snap-on or screw-on augers and extensions. Engine mounted on wheel-base carrier keeps motor noise and fumes away from the operator. Torque tube eliminates counter torque. Features such as the carrier and torque tube offer greater mobility, beneficial in areas inaccessible to large equipment, on slopes and horizontal drilling, various standard sampling methods to obtain material samples.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf021.jpg", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "California Bearing Ratio - Humboldt MasterLoader ",
+                "desc": "The Humboldt MasterLoader CBR/LBR Solution supports ASTM D1883, AASHTO T193, and BS 1337 Part 4. The Humboldt MasterLoader is the most versatile load frame available today. It's the perfect solution for labs requiring versatility to perform a variety of tests in addition to CBR/LBR. The MasterLoader provides an internal 4-channel data logger, which allows it to be used as a standalone unit or as part of a computer-controlled system, the MasterLoader provides the user with fully-automatic test performance allowing unattended operation while controlling motor start/stop, speed selection and test data acquisition. Load Cell and LSCT displacement sensors and reporting software are available for data download and reporting.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf022.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
+            {
+                "labName": " Soil Field & Laboratry",
+                "category": "civil engineering",
+                "productName": "Humboldt CBR/LBR Specific Automatic Load Frame",
+                "desc": "Humboldt CBR/LBR Specific Automatic Load Frame A fully automatic, single-speed load frame, (1.27mm/minute), designed for those who want a high-quality, application-specific load frame that provides simple operation with built-in data acquisition capabilities. Provides two channels with integral data acquisition to accommodate a load cell and transducer for CBR/LBR testing. Load Cell and LSCT displacement sensors and reporting software are available for data download and reporting.\nHMTS Reporting Software, CBR/LBR Module The CBR/LBR Module provides a simple, test-specific interface to control CBR/LBR test operations and automatically record data while also displaying it in real-time tables and graphs. Technicians can be freed-up for other duties with the assurance that all test data is being collected and saved.",
+                "shortDesc": "",
+                "images": [
+                     {"url": "public/image/Sf023.png", "caption": ""},  
+                ],
+                "featured": "false"
+            },
              
         ];
          await Product.deleteMany({});
