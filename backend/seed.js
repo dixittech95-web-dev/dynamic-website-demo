@@ -208,12 +208,12 @@ async function seedDB() {
                 pdfpath: { url: '/public/pdf/medical/Medical Equipment Lab.pdf' },
             },
              {
-                labName: 'Sales-Services-Spare',
+                labName: 'Sales Services Spare',
                 category: 'medical',
                 shortDesc: 'The Sales-Services-Spare Lab provides students with hands-on experience in understanding and applying principles of medical device sales, services, and spare parts management.',
                 featured: false,
                 image: { url: '/public/image/sale.jpg' },
-                pdfpath: { url: '/public/pdf/medical/sales spare.pdf' },
+                pdfpath: { url: '/public/pdf/medical/sale spare.pdf'},
             },
         ];
 

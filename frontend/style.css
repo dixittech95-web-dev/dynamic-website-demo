@@ -8,6 +8,8 @@
 }
 body{
     font-family:'Poppins', sans-serif;
+    max-width: 1368px;
+    margin: 0 auto;
 }
 h1, h2{
     font-family:'Montserrat', sans-serif;
