@@ -364,6 +364,15 @@ main{
     color: var(--secondary-color);
     padding: 20px 15px 0;
 }
+.page-header{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.product-summary{
+    color: var(--text-color);
+    padding: 0 15px 10px;
+}
 .feat-title-head{
     font-size:2rem;
     font-weight:bold;
@@ -378,7 +387,7 @@ main{
     padding: 15px 0;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: stretch;
     justify-content:space-evenly;
     gap:20px;
 }
@@ -393,7 +402,9 @@ main{
     transition: all 0.3s ease;
     cursor: pointer;
     background: var(--bg-color);
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 .product-card:hover{
     border: 2px solid var(--headline-color);
@@ -401,12 +412,13 @@ main{
 }
 .title{
     width: 100%;
-    height: 50px;
+    min-height: 50px;
     background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
     display: flex;
     align-items: center;
     justify-content: center; 
     border-radius: 5px 5px 0 0;
+    padding: 10px;
 }
 .title-name{
     font-size: 1.2rem;
@@ -414,23 +426,31 @@ main{
     font-weight: bold;
     letter-spacing: 0.5px;
 }
+.product-actions{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 20px 20px;
+    margin-top: auto;
+}
 .product-btn{
-    width: 80%;
-    height: 35px;
+    width: 100%;
+    min-height: 42px;
     border: none;
     border-radius: 8px;
-    margin: 10px 0;
-    transition: all 1s ease;
+    transition: all 0.3s ease;
     background-color: var(--title-color);
-    position: absolute;
-    left: 30px;
-    bottom:5px
+    cursor: pointer;
+}
+.product-btn:hover{
+    transform: translateY(-2px);
 }
 .product-btn-link{
     text-decoration: none;
     color: var(--text-color);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     letter-spacing: 0.5px;
+    display: block;
     padding: 5px 5px;
 }
 .product-btn-link:hover{
@@ -439,7 +459,9 @@ main{
 .p-pic{
     width: 80%;
     height: 200px;
-    margin: 5px 0;
+    margin: 10px auto 5px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 .p-name{
     font-size: 1.3rem;
@@ -452,8 +474,8 @@ main{
     line-height: 1.3;
     letter-spacing: 0.5px;
     white-space: pre-line;
-    line-height: 1.3;
     font-size: 1.1rem;
+    padding: 0 15px;
 }
 .lab-header{
     width: 100%;
@@ -482,7 +504,7 @@ main{
     margin-top: 15px;
 }
 .img-container{
-    width: 40%;
+    width: 30%;
     min-width: 260px;
     height: auto;
     border: 1px solid var(--border-color);
@@ -493,6 +515,7 @@ main{
 }
 .ex-pic{
     width: 100%;
+    min-height: 200px;
     height: auto;
     max-height: 320px;
     object-fit: cover;
@@ -507,7 +530,7 @@ main{
     font-weight: bold;
     letter-spacing: 0.5px;
     color: var(--primary-color);
-    margin: 30px auto;
+    margin: 30px auto 10px;
     max-width: 1200px;
 }
 .d-pic{
@@ -516,6 +539,55 @@ main{
     height: auto;
     box-shadow: 0px 0px 10px var(--shadow-color);
     margin: 10px 0;
+}
+.catalogue-grid{
+    width:  100%;
+    padding: 0 10px;
+}
+.catalogue-layout{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+.catalogue-panel{
+    width: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 600px;
+    background: #fff;
+    text-align: center;
+}
+.catalogue-frame{
+    width: 100%;
+    height: 600px;
+    border: 0;
+    background: #fff;
+}
+.catalogue-details{
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 20px;
+    background: var(--bg-color);
+}
+.download-link{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: var(--primary-color);
+    color: var(--title-color);
+    text-decoration: none;
+    border-radius: 8px;
+}
+.empty-state{
+    width: 100%;
+    text-align: center;
+    color: var(--secondary-color);
+    padding: 40px 0;
 }
 /*why-us*/
 .why-us{

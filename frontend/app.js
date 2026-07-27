@@ -1,10 +1,20 @@
-// --- 1. Header aur Footer Load karna ---
+function escapeHtml(value) {
+    return String(value || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
 async function includeHTML() {
     const elements = document.querySelectorAll('[data-include]');
-    for (let el of elements) {
+    for (const el of elements) {
         const file = el.getAttribute('data-include');
         const response = await fetch(file);
-        if (response.ok) el.innerHTML = await response.text();
+        if (response.ok) {
+            el.innerHTML = await response.text();
+        }
     }
 }
 
@@ -186,238 +196,242 @@ function initHeroSlider() {
     startAutoplay();
 }
 
-// --- 2. Index Page: Featured Products ---
-async function LoadFeaturedProducts() {
-    const currentPage = window.location.pathname.split('/').pop().toLowerCase();
-    if (currentPage === 'product.html' || currentPage === 'productdetails.html') return;
+function getThumbnail(product) {
+    return product?.image?.url || product?.images?.url || product?.path?.url || '/image/logo.png';
+}
 
-    const homeGrid = document.querySelector('.product-grid');
-    if (!homeGrid) return;
+function getPdfUrl(product) {
+    return product?.pdfpath?.url || product?.path?.url || '';
+}
 
-    try {
-        const res = await fetch('/api/products/all');
-        const allProducts = await res.json();
+function buildProductCard(product) {
+    const imageUrl = getThumbnail(product);
+    const pdfUrl = getPdfUrl(product);
 
-        const featuredProducts = allProducts.filter(p => p.featured === true);
-        if (featuredProducts.length === 0) {
-            homeGrid.innerHTML = '<p>No featured products available.</p>';
-            return;
-        }
-
-        homeGrid.innerHTML = featuredProducts.map(p => `
-            <div class="product-card">
-                <div class="title"><h3 class="title-name">${p.labName}</h3></div>
-                <img src="${p.images[0]?.url || '/image/default.png'}" alt="${p.productName}" loading="lazy" class="p-pic">
-                <p>${p.shortDesc}</p>
-                <button class="product-btn"><a href="productDetails.html?lab=${encodeURIComponent(p.labName)}" class="product-btn-link">View All Products</a></button>
+    return `
+        <article class="product-card">
+            <div class="title"><h2 class="title-name">${escapeHtml(product.labName || 'Lab')}</h2></div>
+            <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(product.labName || 'Lab')}" class="p-pic">
+            <p class="description">${escapeHtml(product.shortDesc || '')}</p>
+            <div class="product-actions">
+                <button class="product-btn" type="button" data-action="view" data-id="${escapeHtml(product._id || '')}" data-lab="${escapeHtml(product.labName || '')}">
+                    <span class="product-btn-link">View Catalogue</span>
+                </button>
+                <button class="product-btn download-btn" type="button" data-action="download" data-pdf="${escapeHtml(pdfUrl)}" data-name="${escapeHtml(product.labName || 'catalogue.pdf')}">
+                    <span class="product-btn-link">Download Catalogue</span>
+                </button>
             </div>
-        `).join('');
-    } catch (err) {
-        console.error('Error loading products:', err);
-    }
+        </article>
+    `;
 }
 
-// --- 3. Product Page: Filtered list, search results, and product details ---
-async function fetchSearchResults(query) {
-    const res = await fetch(`/api/products/search?q=${encodeURIComponent(query)}`);
-    if (!res.ok) throw new Error('Search request failed');
-    return res.json();
-}
+function attachProductCardActions(container) {
+    container.querySelectorAll('[data-action]').forEach((button) => {
+        button.addEventListener('click', () => {
+            const action = button.getAttribute('data-action');
+            if (action === 'view') {
+                const id = button.getAttribute('data-id');
+                const lab = button.getAttribute('data-lab');
+                const target = id ? `productDetails.html?id=${encodeURIComponent(id)}` : `productDetails.html?lab=${encodeURIComponent(lab || '')}`;
+                window.location.href = target;
+            }
 
-function normalizeCategory(value = '') {
-    return String(value).trim().toLowerCase().replace(/[^a-z0-9]+/g, '');
-}
-
-function categoryMatchesSelection(productCategory, selectedCategory) {
-    if (!selectedCategory) return true;
-
-    const productNorm = normalizeCategory(productCategory);
-    const selectedNorm = normalizeCategory(selectedCategory);
-
-    if (!productNorm || !selectedNorm) return false;
-
-    const aliases = {
-        mechanical: ['mechanical'],
-        civil: ['civil', 'civilengineering'],
-        electrical: ['electrical', 'electricalengineering'],
-        medical: ['medical', 'hospital', 'hospitalmedical', 'medicalengineering']
-    };
-
-    const selectedAliases = aliases[selectedNorm] || [selectedNorm];
-
-    return selectedAliases.some((alias) => {
-        return productNorm === alias || productNorm.includes(alias) || alias.includes(productNorm);
+            if (action === 'download') {
+                const pdf = button.getAttribute('data-pdf');
+                const name = button.getAttribute('data-name') || 'catalogue.pdf';
+                if (!pdf) return;
+                const link = document.createElement('a');
+                link.href = pdf;
+                link.download = name;
+                link.target = '_blank';
+                link.click();
+            }
+        });
     });
 }
 
-function getCategoryTitle(category) {
-    const normalized = normalizeCategory(category);
-    const titles = {
-        mechanical: 'Mechanical Engineering',
-        civil: 'Civil Engineering',
-        civilengineering: 'Civil Engineering',
-        electrical: 'Electrical Engineering',
-        electricalengineering: 'Electrical Engineering',
-        medical: 'Hospital & Medical',
-        hospital: 'Hospital & Medical',
-        hospitalmedical: 'Hospital & Medical',
-        medicalengineering: 'Hospital & Medical'
-    };
-    return titles[normalized] || 'Products';
-}
+async function renderProducts(products, container, titleText) {
+    if (!container) return;
+    container.innerHTML = '';
 
-function isFeaturedProduct(product) {
-    return product?.featured === true || String(product?.featured).toLowerCase() === 'true';
-}
-
-function renderProductCards(products, mode = 'card') {
-    const isDetailPage = /productdetails\.html$/i.test(window.location.pathname);
-
-    if (mode === 'detail' || isDetailPage) {
-        return products.map((p) => `
-            <div class="product-page">
-                <p class="p-lab">Lab: ${p.labName}</p>
-                <h3 class="p-name">${p.productName}</h3>
-                <p class="description">${p.desc}</p>
-                <div class="gallery">
-                    ${p.images?.map(img => `
-                        <div class="img-container">
-                            <img src="${img.url}" loading="lazy" class="ex-pic" alt="${p.productName}">
-                            <p>${img.caption || ''}</p>
-                        </div>
-                    `).join('')}
-                </div>
-            </div>
-        `).join('');
-    }
-
-    return products.map((p) => `
-        <div class="product-card">
-            <div class="title"><h3 class="title-name">${p.labName}</h3></div>
-            <img src="${p.images?.[0]?.url || '/image/default.png'}" alt="${p.productName}" loading="lazy" class="p-pic">
-            <p class="description">${p.shortDesc}</p>
-            <button class="product-btn"><a href="productDetails.html?lab=${encodeURIComponent(p.labName)}" class="product-btn-link">View Details</a></button>
-        </div>
-    `).join('');
-}
-
-async function loadLabProducts(container, labName) {
-    const res = await fetch('/api/products/all');
-    const allProducts = await res.json();
-    const filtered = allProducts.filter(p => p.labName === labName);
-
-    const title = document.getElementById('lab-title');
-    if (title) {
-        title.innerText = labName;
-    }
-
-    if (filtered.length === 0) {
-        container.innerHTML = `<p class="no-results">No products found for "${labName}".</p>`;
+    if (!products.length) {
+        container.innerHTML = '<p class="empty-state">No labs found for this search.</p>';
         return;
     }
 
-    container.innerHTML = renderProductCards(filtered, 'detail');
-}
-
-async function loadSearchResults(container, query) {
-    const title = document.getElementById('lab-title');
-    if (title) {
-        title.innerText = `Search results for "${query}"`;
-    }
-
-    const results = await fetchSearchResults(query);
-    if (!results || results.length === 0) {
-        container.innerHTML = `<p class="no-results">No products found for "${query}".</p>`;
-        return;
-    }
-
-    container.innerHTML = renderProductCards(results, 'detail');
-}
-
-async function loadProductsByFilter(container, category) {
-    const res = await fetch('/api/products/all');
-    const allProducts = await res.json();
-    const filtered = allProducts.filter((p) => {
-        if (!isFeaturedProduct(p)) return false;
-        if (!category) return true;
-        return categoryMatchesSelection(p.category, category);
+    const fragment = document.createDocumentFragment();
+    products.forEach((product) => {
+        const wrapper = document.createElement('div');
+        wrapper.innerHTML = buildProductCard(product);
+        fragment.appendChild(wrapper.firstElementChild);
     });
 
-    const title = document.getElementById('lab-title');
-    if (title) {
-        title.innerText = category ? `${getCategoryTitle(category)} Featured Labs` : 'All Featured Labs';
-    }
+    container.appendChild(fragment);
+    attachProductCardActions(container);
 
-    if (filtered.length === 0) {
-        container.innerHTML = `<p class="no-results">No featured labs found for this category.</p>`;
-        return;
+    const titleEl = document.getElementById('lab-title');
+    if (titleEl) {
+        titleEl.textContent = titleText;
     }
-
-    container.innerHTML = renderProductCards(filtered, 'card');
 }
 
-async function LoadCatalog() {
-    const container = document.getElementById('catalog-container') || document.querySelector('.product-grid');
+async function loadProductsPage() {
+    const container = document.querySelector('.product-grid');
+    const titleEl = document.getElementById('lab-title');
     if (!container) return;
 
     const params = new URLSearchParams(window.location.search);
-    const labName = params.get('lab');
-    const searchQuery = params.get('search');
-    const category = params.get('category');
+    const search = params.get('search')?.trim() || '';
+    const category = params.get('category')?.trim() || '';
+
+    let url = '/api/products/all';
+    const query = new URLSearchParams();
+    if (search) query.set('q', search);
+    if (category) query.set('category', category);
+
+    if (query.toString()) {
+        url = `/api/products/all?${query.toString()}`;
+    }
 
     try {
-        if (searchQuery) {
-            await loadSearchResults(container, searchQuery);
-            return;
-        }
+        const response = await fetch(url);
+        const products = await response.json();
+        const safeProducts = Array.isArray(products) ? products : [];
+        const filteredProducts = category
+            ? safeProducts.filter((product) => (product.category || '').toLowerCase().includes(category.toLowerCase()))
+            : safeProducts;
 
-        if (labName) {
-            await loadLabProducts(container, labName);
-            return;
+        const titleText = search ? `Search results for “${search}”` : category ? `${category.charAt(0).toUpperCase()}${category.slice(1)} Labs` : 'All Labs';
+        if (titleEl) {
+            titleEl.textContent = titleText;
         }
-
-        await loadProductsByFilter(container, category);
+        renderProducts(filteredProducts, container, titleText);
     } catch (error) {
-        console.error('Error loading products:', error);
-        container.innerHTML = `<p class="error-text">Failed to load products. Please try again.</p>`;
+        console.error('Failed to load products:', error);
+        if (container) {
+            container.innerHTML = '<p class="empty-state">Unable to load labs right now.</p>';
+        }
     }
 }
-// enquiery form
+
+async function loadFeaturedProducts() {
+    const container = document.querySelector('.featured-product');
+    if (!container) return;
+
+    try {
+        const response = await fetch('/api/products/featured');
+        const products = await response.json();
+        const safeProducts = Array.isArray(products) ? products : [];
+        const featuredProducts = safeProducts.slice(0, 3);
+        renderProducts(featuredProducts, container, 'Featured Labs');
+    } catch (error) {
+        console.error('Failed to load featured products:', error);
+    }
+}
+
+async function loadProductDetailsPage() {
+    const container = document.getElementById('catalog-container');
+    const titleEl = document.getElementById('lab-title');
+    const descEl = document.getElementById('lab-description');
+    const frame = document.getElementById('catalogue-frame');
+    const downloadLink = document.getElementById('download-catalogue');
+    if (!container) return;
+
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+    const lab = params.get('lab');
+
+    try {
+        let product = null;
+        if (id) {
+            const response = await fetch(`/api/products/id/${id}`);
+            product = await response.json();
+        } else if (lab) {
+            const response = await fetch('/api/products/all');
+            const products = await response.json();
+            product = (Array.isArray(products) ? products : []).find((item) => (item.labName || '').toLowerCase() === lab.toLowerCase());
+        }
+
+        if (!product) {
+            if (titleEl) titleEl.textContent = 'Lab not found';
+            if (descEl) descEl.textContent = 'The requested catalogue could not be loaded.';
+            if (frame) frame.src = '';
+            if (downloadLink) downloadLink.style.display = 'none';
+            return;
+        }
+
+        if (titleEl) titleEl.textContent = product.labName || 'Lab Details';
+        if (descEl) descEl.textContent = product.shortDesc || 'Detailed catalogue will appear here.';
+
+        const pdfUrl = getPdfUrl(product);
+        if (frame) {
+            frame.src = pdfUrl || '';
+        }
+
+        if (downloadLink) {
+            downloadLink.href = pdfUrl || '#';
+            downloadLink.download = `${(product.labName || 'catalogue').replace(/\s+/g, '_')}.pdf`;
+            downloadLink.style.display = pdfUrl ? 'inline-flex' : 'none';
+        }
+
+        const details = document.getElementById('lab-details');
+        if (details) {
+            details.innerHTML = `
+                <p><strong>Category:</strong> ${escapeHtml(product.category || 'N/A')}</p>
+                <p><strong>Lab Name:</strong> ${escapeHtml(product.labName || 'N/A')}</p>
+                <p><strong>Description:</strong> ${escapeHtml(product.shortDesc || 'N/A')}</p>
+            `;
+        }
+    } catch (error) {
+        console.error('Failed to load product details:', error);
+        if (titleEl) titleEl.textContent = 'Unable to load catalogue';
+        if (descEl) descEl.textContent = 'Please try again later.';
+    }
+}
+
+// enquiry form
 const form = document.getElementById('enquiry-form');
 
 if (form) {
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
-        
+
         const data = {
             name: document.getElementById('name').value,
             email: document.getElementById('email').value,
             mobile: document.getElementById('mobile').value,
-            message: document.getElementById('msg').value
+            message: document.getElementById('msg').value,
         };
 
         const response = await fetch('/api/send-enquiry', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(data)
+            body: JSON.stringify(data),
         });
 
         const result = await response.json();
         if (result.success) {
-            alert("Success! Message humein mil gaya hai.");
+            alert('Success! Message humein mil gaya hai.');
             form.reset();
         } else {
-            alert("Error! Kuch gadbad ho gayi, baad mein try karo.");
+            alert('Error! Kuch gadbad ho gayi, baad mein try karo.');
         }
     });
 }
-// --- 5. Initializer ---
+
+// initializer
 document.addEventListener('DOMContentLoaded', async () => {
     await includeHTML();
     setupGlobalSearch();
     setupResponsiveMenu();
     setupCategoryLinks();
     initHeroSlider();
-    await LoadCatalog();
-    await LoadFeaturedProducts();
+
+    if (document.querySelector('.product-grid')) {
+        await loadProductsPage();
+    } else if (document.getElementById('catalog-container')) {
+        await loadProductDetailsPage();
+    } else if (document.querySelector('.featured-product')) {
+        await loadFeaturedProducts();
+    }
 });
