@@ -126,6 +126,15 @@
      .contact{
         font-size: 0.9rem;
      }
+    .catalogue-panel {
+        min-height: 420px;
+    }
+
+    .catalogue-frame {
+        height: 78vh;
+        min-height: 420px;
+    }
+
     /*footer*/
     footer{
         flex-wrap: wrap;

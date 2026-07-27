@@ -204,6 +204,40 @@ function getPdfUrl(product) {
     return product?.pdfpath?.url || product?.path?.url || '';
 }
 
+function isPdfUrl(url) {
+    return /\.pdf$/i.test(url || '');
+}
+
+function isMobileView() {
+    return window.innerWidth <= 768 || /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent || '');
+}
+
+function getAbsoluteUrl(url) {
+    if (!url) return '';
+    if (/^https?:\/\//i.test(url)) return url;
+    if (url.startsWith('/')) return `${window.location.origin}${url}`;
+    return url;
+}
+
+function isSameOriginUrl(url) {
+    try {
+        return new URL(url, window.location.href).origin === window.location.origin;
+    } catch (error) {
+        return false;
+    }
+}
+
+function getCataloguePreviewUrl(url) {
+    const absoluteUrl = getAbsoluteUrl(url);
+    if (!absoluteUrl) return '';
+
+    if (isMobileView() && isPdfUrl(absoluteUrl) && !isSameOriginUrl(absoluteUrl)) {
+        return `https://docs.google.com/viewer?embedded=true&url=${encodeURIComponent(absoluteUrl)}`;
+    }
+
+    return absoluteUrl;
+}
+
 function buildProductCard(product) {
     const imageUrl = getThumbnail(product);
     const pdfUrl = getPdfUrl(product);
@@ -364,8 +398,9 @@ async function loadProductDetailsPage() {
         if (descEl) descEl.textContent = product.shortDesc || 'Detailed catalogue will appear here.';
 
         const pdfUrl = getPdfUrl(product);
+        const previewUrl = getCataloguePreviewUrl(pdfUrl);
         if (frame) {
-            frame.src = pdfUrl || '';
+            frame.src = previewUrl || '';
         }
 
         if (downloadLink) {

@@ -157,7 +157,7 @@ async function seedDB() {
                 shortDesc: 'The Fibre Optic Lab provides students with hands-on experience in understanding and applying principles of fibre optic communication systems.',
                 featured: false,
                 image: { url: '/public/image/fibre.jpg' },
-                pdfpath: { url: '/public/pdf/electrical engineering/Fibre Optic Trainers Lab.pdf' },
+                pdfpath: { url: '/public/pdf/electrical engineering/Fibre Optic Trainers.pdf' },
             },
             {
                 labName: 'Control Lab',
@@ -173,7 +173,7 @@ async function seedDB() {
                 shortDesc: 'The Digital Analog Lab provides students with hands-on experience in understanding and applying principles of digital and analog circuits.',
                 featured: false,
                 image: { url: '/public/image/digital.jpg' },
-                pdfpath: { url: '/public/pdf/electrical engineering/DigitalAnalog Trainer Lab.pdf' },
+                pdfpath: { url: '/public/pdf/electrical engineering/DigitalAnalog Trainer.pdf' },
             },
             {
                 labName: 'Microprocessor/Microcontroller Lab',
@@ -197,7 +197,7 @@ async function seedDB() {
                 shortDesc: 'The Instrumentation Lab provides students with hands-on experience in understanding and applying principles of instrumentation and measurement systems.',
                 featured: false,
                 image: { url: '/public/image/instrumentation.jpg' },
-                pdfpath: { url: '/public/pdf/electrical engineering/Instrumentation Lab.pdf' },
+                pdfpath: { url: '/public/pdf/electrical engineering/InstrumentationTransducer Trainers.pdf' },
             },
             {
                 labName: 'Medical Equipment',
@@ -213,7 +213,7 @@ async function seedDB() {
                 shortDesc: 'The Sales-Services-Spare Lab provides students with hands-on experience in understanding and applying principles of medical device sales, services, and spare parts management.',
                 featured: false,
                 image: { url: '/public/image/sale.jpg' },
-                pdfpath: { url: '/public/pdf/medical/sales spare Lab.pdf' },
+                pdfpath: { url: '/public/pdf/medical/sales spare.pdf' },
             },
         ];
 
