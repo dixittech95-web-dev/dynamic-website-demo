@@ -739,6 +739,11 @@ main{
     border: 2px solid var(--border-color);
     margin: 10px auto;
 }
+.feed-pic{
+     width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
 .user-name{
     font-size: 1.3rem;
     margin: 5px 0;
