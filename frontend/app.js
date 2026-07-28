@@ -238,6 +238,150 @@ function getCataloguePreviewUrl(url) {
     return absoluteUrl;
 }
 
+let pdfViewerState = {
+    pdfDoc: null,
+    currentPage: 1,
+    zoom: 1.1,
+    pageCount: 0,
+    pdfUrl: ''
+};
+
+function updatePdfToolbar() {
+    const prevBtn = document.querySelector('[data-pdf-action="prev"]');
+    const nextBtn = document.querySelector('[data-pdf-action="next"]');
+    const pageInfo = document.getElementById('pdf-page-info');
+
+    if (prevBtn) {
+        prevBtn.disabled = pdfViewerState.currentPage <= 1;
+    }
+
+    if (nextBtn) {
+        nextBtn.disabled = pdfViewerState.currentPage >= pdfViewerState.pageCount;
+    }
+
+    if (pageInfo) {
+        pageInfo.textContent = pdfViewerState.pageCount
+            ? `Page ${pdfViewerState.currentPage} / ${pdfViewerState.pageCount}`
+            : 'Page 1 / 1';
+    }
+}
+
+function focusPdfViewer() {
+    const container = document.getElementById('pdf-canvas-container');
+    if (!container) return;
+
+    container.scrollTop = 0;
+    container.scrollLeft = 0;
+    container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+async function renderPdfPage(pageNumber) {
+    if (!pdfViewerState.pdfDoc) return;
+
+    const container = document.getElementById('pdf-canvas-container');
+    if (!container) return;
+
+    const page = await pdfViewerState.pdfDoc.getPage(pageNumber);
+    const viewport = page.getViewport({ scale: pdfViewerState.zoom });
+    const canvas = document.createElement('canvas');
+    canvas.className = 'pdf-canvas';
+    canvas.width = viewport.width;
+    canvas.height = viewport.height;
+
+    container.innerHTML = '';
+    container.appendChild(canvas);
+
+    const context = canvas.getContext('2d');
+    await page.render({ canvasContext: context, viewport }).promise;
+    pdfViewerState.currentPage = pageNumber;
+    updatePdfToolbar();
+    focusPdfViewer();
+}
+
+async function renderPdfViewer(url) {
+    const container = document.getElementById('pdf-canvas-container');
+    if (!container) return;
+
+    if (!url) {
+        container.innerHTML = '<div class="pdf-status">No catalogue available.</div>';
+        return;
+    }
+
+    if (!window.pdfjsLib) {
+        container.innerHTML = '<div class="pdf-status pdf-status-error">PDF viewer is unavailable right now.</div>';
+        return;
+    }
+
+    if (window.pdfjsLib.GlobalWorkerOptions) {
+        window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+    }
+
+    container.innerHTML = '<div class="pdf-status">Loading catalogue…</div>';
+    pdfViewerState = { pdfDoc: null, currentPage: 1, zoom: 1.1, pageCount: 0, pdfUrl: url };
+    updatePdfToolbar();
+
+    try {
+        const loadingTask = window.pdfjsLib.getDocument({
+            url: getAbsoluteUrl(url),
+            useSystemJS: false
+        });
+
+        const pdfDoc = await loadingTask.promise;
+        pdfViewerState.pdfDoc = pdfDoc;
+        pdfViewerState.pageCount = pdfDoc.numPages || 0;
+        pdfViewerState.pdfUrl = url;
+        updatePdfToolbar();
+        await renderPdfPage(1);
+    } catch (error) {
+        console.error('Failed to load PDF viewer:', error);
+        container.innerHTML = '<div class="pdf-status pdf-status-error">Unable to load the catalogue in the viewer.</div>';
+    }
+}
+
+function attachPdfViewerControls() {
+    document.querySelectorAll('[data-pdf-action]').forEach((button) => {
+        button.addEventListener('click', async () => {
+            const action = button.getAttribute('data-pdf-action');
+            if (!pdfViewerState.pdfDoc) return;
+
+            if (action === 'prev' && pdfViewerState.currentPage > 1) {
+                await renderPdfPage(pdfViewerState.currentPage - 1);
+            }
+
+            if (action === 'next' && pdfViewerState.currentPage < pdfViewerState.pageCount) {
+                await renderPdfPage(pdfViewerState.currentPage + 1);
+            }
+
+            if (action === 'zoom-in') {
+                pdfViewerState.zoom = Math.min(2.5, pdfViewerState.zoom + 0.2);
+                await renderPdfPage(pdfViewerState.currentPage);
+            }
+
+            if (action === 'zoom-out') {
+                pdfViewerState.zoom = Math.max(0.8, pdfViewerState.zoom - 0.2);
+                await renderPdfPage(pdfViewerState.currentPage);
+            }
+        });
+    });
+
+    const viewerContainer = document.getElementById('pdf-canvas-container');
+    if (!viewerContainer) return;
+
+    viewerContainer.addEventListener('contextmenu', (event) => {
+        event.preventDefault();
+    });
+
+    document.addEventListener('keydown', (event) => {
+        const isViewerTarget = event.target && event.target.closest && event.target.closest('.catalogue-panel');
+        if (!isViewerTarget) return;
+
+        const key = event.key.toLowerCase();
+        if ((event.ctrlKey || event.metaKey) && ['p', 's', 'c'].includes(key)) {
+            event.preventDefault();
+        }
+    });
+}
+
 function buildProductCard(product) {
     const imageUrl = getThumbnail(product);
     const pdfUrl = getPdfUrl(product);
@@ -250,9 +394,6 @@ function buildProductCard(product) {
             <div class="product-actions">
                 <button class="product-btn" type="button" data-action="view" data-id="${escapeHtml(product._id || '')}" data-lab="${escapeHtml(product.labName || '')}">
                     <span class="product-btn-link">View Catalogue</span>
-                </button>
-                <button class="product-btn download-btn" type="button" data-action="download" data-pdf="${escapeHtml(pdfUrl)}" data-name="${escapeHtml(product.labName || 'catalogue.pdf')}">
-                    <span class="product-btn-link">Download Catalogue</span>
                 </button>
             </div>
         </article>
@@ -268,17 +409,6 @@ function attachProductCardActions(container) {
                 const lab = button.getAttribute('data-lab');
                 const target = id ? `productDetails.html?id=${encodeURIComponent(id)}` : `productDetails.html?lab=${encodeURIComponent(lab || '')}`;
                 window.location.href = target;
-            }
-
-            if (action === 'download') {
-                const pdf = button.getAttribute('data-pdf');
-                const name = button.getAttribute('data-name') || 'catalogue.pdf';
-                if (!pdf) return;
-                const link = document.createElement('a');
-                link.href = pdf;
-                link.download = name;
-                link.target = '_blank';
-                link.click();
             }
         });
     });
@@ -367,8 +497,7 @@ async function loadProductDetailsPage() {
     const container = document.getElementById('catalog-container');
     const titleEl = document.getElementById('lab-title');
     const descEl = document.getElementById('lab-description');
-    const frame = document.getElementById('catalogue-frame');
-    const downloadLink = document.getElementById('download-catalogue');
+    const viewerContainer = document.getElementById('pdf-canvas-container');
     if (!container) return;
 
     const params = new URLSearchParams(window.location.search);
@@ -389,8 +518,9 @@ async function loadProductDetailsPage() {
         if (!product) {
             if (titleEl) titleEl.textContent = 'Lab not found';
             if (descEl) descEl.textContent = 'The requested catalogue could not be loaded.';
-            if (frame) frame.src = '';
-            if (downloadLink) downloadLink.style.display = 'none';
+            if (viewerContainer) {
+                viewerContainer.innerHTML = '<div class="pdf-status pdf-status-error">No catalogue available.</div>';
+            }
             return;
         }
 
@@ -398,15 +528,10 @@ async function loadProductDetailsPage() {
         if (descEl) descEl.textContent = product.shortDesc || 'Detailed catalogue will appear here.';
 
         const pdfUrl = getPdfUrl(product);
-        const previewUrl = getCataloguePreviewUrl(pdfUrl);
-        if (frame) {
-            frame.src = previewUrl || '';
-        }
-
-        if (downloadLink) {
-            downloadLink.href = pdfUrl || '#';
-            downloadLink.download = `${(product.labName || 'catalogue').replace(/\s+/g, '_')}.pdf`;
-            downloadLink.style.display = pdfUrl ? 'inline-flex' : 'none';
+        if (pdfUrl) {
+            await renderPdfViewer(pdfUrl);
+        } else if (viewerContainer) {
+            viewerContainer.innerHTML = '<div class="pdf-status">No catalogue available.</div>';
         }
 
         const details = document.getElementById('lab-details');
@@ -461,6 +586,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     setupResponsiveMenu();
     setupCategoryLinks();
     initHeroSlider();
+    attachPdfViewerControls();
 
     if (document.querySelector('.product-grid')) {
         await loadProductsPage();

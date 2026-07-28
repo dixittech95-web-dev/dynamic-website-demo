@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Industries</title>
+    <title>Catalogue Viewer | Dynamic Industries</title>
+    <meta name="description" content="View product catalogues and detailed lab equipment information directly on Dynamic Industries website.">
+    <meta name="keywords" content="product catalogue, lab equipment catalogue, scientific catalogue, dynamic industries catalogue, testing instrument catalogue">
+    <meta name="author" content="Dynamic Industries">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dynamicindustries.in/productDetails.html">
+    <meta property="og:title" content="Catalogue Viewer | Dynamic Industries">
+    <meta property="og:description" content="Open and explore downloadable catalogues for lab products and industrial equipment.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dynamicindustries.in/productDetails.html">
+    <meta property="og:image" content="https://dynamicindustries.in/image/b2.jpeg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
@@ -22,11 +32,19 @@
                 <div class="catalogue-details">
                     <h3>Lab Information</h3>
                     <div id="lab-details"></div>
-                    <a id="download-catalogue" class="download-link" href="#">Download Catalogue</a>
                 </div>
                 
                 <div class="catalogue-panel">
-                    <iframe id="catalogue-frame" title="Catalogue Preview" class="catalogue-frame"></iframe>
+                    
+                    <div id="pdf-canvas-container" class="catalogue-frame" aria-live="polite"></div>
+
+                    <div class="pdf-toolbar" aria-label="PDF viewer controls">
+                        <button class="pdf-control" type="button" data-pdf-action="prev" aria-label="Previous page">Prev</button>
+                        <span id="pdf-page-info" class="pdf-page-info">Page 1 / 1</span>
+                        <button class="pdf-control" type="button" data-pdf-action="next" aria-label="Next page">Next</button>
+                        <button class="pdf-control" type="button" data-pdf-action="zoom-in" aria-label="Zoom in">+</button>
+                        <button class="pdf-control" type="button" data-pdf-action="zoom-out" aria-label="Zoom out">−</button>
+                    </div>
                 </div>
                 
             </div>
@@ -34,5 +52,6 @@
     </main>
     <div data-include="footer.html"></div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
 <script src="app.js"></script>
 </html>
